@@ -228,58 +228,53 @@ content:
       
       - layout: top-middle
         title: Portfolio Management - Quantitative Investment Strategy Backtesting
-        link: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
+        link: github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         # link_text: Project Website
         additional_links:
           - title: Quantitative Investment Strategy Backtesting
             icon: fab fa-github
-            url: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
+            url: github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         description: | # this will include new lines to allow paragraphs
           **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
       
       - layout: top-middle
         title: Development of FX market-maker simulator game for HSE MSc Derivatives course
-        link: https://t.me/FXTraderSimulatorBot
+        link: t.me/FXTraderSimulatorBot
         # link_text: Project Website
         additional_links:
           - title: FX Market-Maker Simulator
             icon: fab fa-telegram
-            url: https://t.me/FXTraderSimulatorBot
+            url: t.me/FXTraderSimulatorBot
         description: | # this will include new lines to allow paragraphs
           Designing and programming game for simulating a market-maker’s task for hedging out corporate flow.
       
       - layout: top-middle
         title: Natural Language Processing-based MOEX FX straddle vega and gamma trading strategy
-        link: https://github.com/v-buchkov/hse_volatility_project
+        link: github.com/v-buchkov/hse_volatility_project
         # link_text: Project Website
         additional_links:
-          - title: NLP Options Trading
+          - title: NLP Gamma & Vega Trading Strategy
             icon: fab fa-github
-            url: https://github.com/v-buchkov/hse_volatility_project
+            url: github.com/v-buchkov/hse_volatility_project
         description: | # this will include new lines to allow paragraphs
           **(Grade 9/10)** Modeling of market sentiment in the news, social media and research reports with target to generate consistent prediction of the delta-hedged straddle PnL sign’s classification.
       
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
+        title: Java Option Pricing Library
+        link: github.com/v-buchkov/options-pricer
         # link_text: Project Website
         additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
+          - title: Java Option Pricing Library
             icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+            url: github.com/v-buchkov/options-pricer
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          Pricing library pet-project, driven by analytical solutions of PDE and Monte Carlo simulations.
       
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        title: Python-based Automatization of Russian Metals&Mining bonds fundamental analysis
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          **(Grade 10/10)** Developed algorithmic tool for public credit quality prediction, pricing, search for undervalued bonds
+
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
