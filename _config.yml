@@ -65,7 +65,7 @@ content:
         title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
-        sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
+        sub_title: Senior Officer, Quantitative Investment Strategies
         caption: July 2023 - Present
         quote: >
           (Moscow, Russia - remote work)
@@ -321,7 +321,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Zurich, Switzerland
 
 # Build settings
 remote_theme: sproogen/resume-theme
