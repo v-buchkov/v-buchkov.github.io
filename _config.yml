@@ -51,7 +51,8 @@ about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Viacheslav and I'm an aspiring quantitative researcher with a total 5 years of experience in Quantitative Asset Management, possessing strong statistical learning, portfolio optimization and derivatives pricing skills.
 
-  My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
+  ## Research Interests:
+  My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark>, <mark>Derivatives Pricing</mark> and <mark>Roboadvisory</mark>.
 
   ## Programming Skills:
   <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
@@ -286,17 +287,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           **(Grade 10/10)** Prototype of an automated advisor that outputs mean-variance optimal portfolio.
 
-  - title: A Little More About Me
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - English (proficient, IELTS 8.0/9.0)
+      - Russian
+
+  - title: Hobbies & Sports
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Fencing (captain of city’s team at Cup of Russia)
+      - Football (vice-captain of 3 teams in Moscow championships)
+      - Modern Russian literature
+      - Game Design
+      - Poker
+      - Skiing
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Thanks for your attention!
+      ![Trophy](images/landscape-trees.jpg "Trophy")
 
 # Footer
 footer_show_references: true
