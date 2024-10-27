@@ -53,6 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
+  Programming Skills: <mark>Quantitative Investment Strategies</mark>
+
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -186,8 +188,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Extracurricular training program in quantitative finance and applied machine learning topics**
 
-          Grade: Top-4 in Final Rating of Students
-
+          <br>Grade: Top-4 in Final Rating of Students</br>
           Top-1 in Portfolio Optimization and Risk Management Exam
 
           Top-2 in Equity Derivatives & FX Derivatives Exam
@@ -203,18 +204,6 @@ content:
         caption: Summer 2019 (Milan, Italy)
         description: | # this will include new lines to allow paragraphs
           Equity and Venture Financing Summer School Program
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -234,6 +223,18 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
