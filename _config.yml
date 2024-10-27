@@ -238,26 +238,26 @@ content:
           **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
       
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
+        title: Development of FX market-maker simulator game for HSE MSc Derivatives course
+        link: https://t.me/FXTraderSimulatorBot
         # link_text: Project Website
         additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+          - title: FX Market-Maker Simulator
+            icon: fab fa-telegram
+            url: https://t.me/FXTraderSimulatorBot
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          Designing and programming game for simulating a market-maker’s task for hedging out corporate flow.
       
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
+        title: Natural Language Processing-based MOEX FX straddle vega and gamma trading strategy
+        link: https://github.com/v-buchkov/hse_volatility_project
         # link_text: Project Website
         additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
+          - title: NLP Options Trading
             icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+            url: https://github.com/v-buchkov/hse_volatility_project
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          **(Grade 9/10)** Modeling of market sentiment in the news, social media and research reports with target to generate consistent prediction of the delta-hedged straddle PnL sign’s classification.
       
       - layout: top-middle
         title: Interest Rate Derivatives project
