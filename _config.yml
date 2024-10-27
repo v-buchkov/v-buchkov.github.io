@@ -210,7 +210,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Interest Rate Derivatives project
+        title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation (Grade 48/50)
         link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         # link_text: Project Website
         additional_links:
@@ -219,15 +219,18 @@ content:
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      
       - layout: top-middle
-        title: Portfolio Management project
+        title: Portfolio Management - Quantitative Investment Strategy Backtesting (Grade 10/10)
+        link: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         # link_text: Project Website
         additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
+          - title: Quantitative Investment Strategy Backtesting
             icon: fab fa-github
             url: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
+
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
