@@ -10,6 +10,7 @@ name: Viacheslav Buchkov
 title: Quantitative Researcher
 email: viacheslav.buchkov@gmail.com
 phone: +41 76 291 82 80
+location: Zurich, Switzerland
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -50,7 +51,7 @@ about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Viacheslav and I'm an aspiring quantitative researcher with a total 5 years of experience in Quantitative Asset Management, possessing strong statistical learning, portfolio optimization and derivatives pricing skills.
 
-  I am most skilled in: <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
+  My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -58,7 +59,7 @@ content:
     content:
       - layout: left
         title: Raiffeisenbank JSC
-        link: boringcompany.com
+        link: raiffeisen.ru
         # link_text: boringcompany.com
         sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
         caption: July 2023 - Present
@@ -71,6 +72,23 @@ content:
             * Beta Factor Advisory & Investment Engine
             * Beta Factor Index replication via Reinforcement Learning
             * Financial and non-financial (real estate, salary) cash flows Beta Factorization
+            * RUB Interest Rates Beta Strategies
+      - layout: left
+        title: Raiffeisenbank JSC
+        link: raiffeisen.ru
+        # link_text: boringcompany.com
+        sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
+        caption: July 2023 - Present
+        quote: >
+          Raiffeisen Bank International Group (Moscow, Russia - remote work)
+        description: | # this will include new lines to allow paragraphs
+            Supervising and leading quant research and product development in:
+            * Factor Investing in Equity and Fixed Income
+            * Smart Beta Strategies
+            * Beta Factor Advisory & Investment Engine
+            * Beta Factor Index replication via Reinforcement Learning
+            * Financial and non-financial (real estate, salary) cash flows Beta Factorization
+            * RUB Interest Rates Beta Strategies
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
