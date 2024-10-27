@@ -81,6 +81,29 @@ content:
             * Supervised Institutional Brokerage Software Engineering team of 22 engineers
             * Designed architecture of prime brokerage services, planning roadmap and prioritizing initiatives
             * Initializing and project leading new Institutional Prime Brokerage and Investment products
+      - layout: left
+        # link_text: boringcompany.com
+        sub_title: Quantitative Analyst, Structured Products
+        caption: August 2021 - March 2022
+        description: | # this will include new lines to allow paragraphs
+            * Discovered and implemented over 20 tailor-made investment ideas in equity & credit products, including volatility and correlation-based strategies
+            * Researched statistical arbitrage strategies for offshore versus onshore volatility and MOEX FX options correlation trade in EURRUB & USDRUB
+            * Developed pricing, delta-hedging, greeks & RWA calculation for linear strategies
+            * Engineered Monte Carlo Simulation & Pricing Tool for exotic structured products
+            * Designed products continuous valuation and lifecycle management MVP
+      - layout: left
+        # link_text: boringcompany.com
+        sub_title: Junior Sales Trader, Institutional Fixed Income, Sales&Trading
+        caption: March 2021 - July 2021
+        description: | # this will include new lines to allow paragraphs
+            * Oversaw and led Russian Government Bonds algorithmic market-making
+            * Was responsible for client coverage and fixed income flow on 70+ clients
+            * Provided coverage for investors on 30+ primary bonds issues & 1 IPO
+            * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China — mostly via cold outreach)
+      - layout: left
+        # link_text: boringcompany.com
+        sub_title: Intern, Institutional Fixed Income, Sales&Trading
+        caption: August 2020 - February 2021
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
