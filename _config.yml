@@ -58,7 +58,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Raiffeisenbank JSC, RBI Group
+        title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
         sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
@@ -73,37 +73,48 @@ content:
             * Beta Factor Index replication via Reinforcement Learning
             * Financial and non-financial (real estate, salary) cash flows Beta Factorization
             * RUB Interest Rates Beta Strategies
-      - layout: left
+      - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Product Manager, Prime Brokerage & Investment Products
         caption: April 2022 - June 2023
+        quote: >
+          (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
             * Supervised Institutional Brokerage Software Engineering team of 22 engineers
             * Designed architecture of prime brokerage services, planning roadmap and prioritizing initiatives
             * Initializing and project leading new Institutional Prime Brokerage and Investment products
-      - layout: left
+      - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Quantitative Analyst, Structured Products
         caption: August 2021 - March 2022
+        quote: >
+          (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
             * Discovered and implemented over 20 tailor-made investment ideas in equity & credit products, including volatility and correlation-based strategies
             * Researched statistical arbitrage strategies for offshore versus onshore volatility and MOEX FX options correlation trade in EURRUB & USDRUB
             * Developed pricing, delta-hedging, greeks & RWA calculation for linear strategies
             * Engineered Monte Carlo Simulation & Pricing Tool for exotic structured products
             * Designed products continuous valuation and lifecycle management MVP
-      - layout: left
+      - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Junior Sales Trader, Institutional Fixed Income, Sales&Trading
         caption: March 2021 - July 2021
+        quote: >
+          (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
             * Oversaw and led Russian Government Bonds algorithmic market-making
             * Was responsible for client coverage and fixed income flow on 70+ clients
             * Provided coverage for investors on 30+ primary bonds issues & 1 IPO
             * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China — mostly via cold outreach)
-      - layout: left
+      - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Intern, Institutional Fixed Income, Sales&Trading
         caption: August 2020 - February 2021
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            * Specialized in Fixed Income and REPO execution for over 50 brokerage clients with constant order flow
+            * Created Python algorithm for non-screen term REPO pricing, further implemented for brokerage execution
       - layout: top-middle
         title: AriCapital Asset Management
         link: aricapital.ru
@@ -112,6 +123,9 @@ content:
         caption: September 2019 - June 2020
         quote: >
           (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            * Published 36 articles on the daily news of financial markets, analyzing the impact on prices of instruments
+            * Completed fundamental analysis of equity and debt instruments of the largest international oﬀshore drilling companies with two investment ideas in debt instruments
       - layout: left
         title: Rosbank, Société Générale Group
         link: rosbank.ru
@@ -120,6 +134,8 @@ content:
         caption: July 2019 - August 2019
         quote: >
           (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            Completed fundamental top-down analysis of the Russian Metals&Mining sector with two investment ideas in debt instruments and two ideas in equity
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
