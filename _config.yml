@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
 content:
-  - title: **Experience** # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -104,6 +104,22 @@ content:
         # link_text: boringcompany.com
         sub_title: Intern, Institutional Fixed Income, Sales&Trading
         caption: August 2020 - February 2021
+      - layout: left
+        title: AriCapital Asset Management
+        link: aricapital.ru
+        # link_text: boringcompany.com
+        sub_title: Intern, Fixed Income & Equity Research
+        caption: September 2019 - June 2020
+        quote: >
+          (Moscow, Russia)
+      - layout: left
+        title: Rosbank, Société Générale Group
+        link: rosbank.ru
+        # link_text: boringcompany.com
+        sub_title: Intern, Research, Capital Markets & Investment Banking Department
+        caption: July 2019 - August 2019
+        quote: >
+          (Moscow, Russia)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
