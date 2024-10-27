@@ -304,8 +304,9 @@ content:
       - Poker
       - Skiing
 
-      # Thanks for your attention!
-
+  - title: Thanks for your attention!
+    layout: top-middle
+    content: | # this will include new lines to allow paragraphs
       ![Trophy](images/trophy.jpg "Trophy")
 
 # Footer
