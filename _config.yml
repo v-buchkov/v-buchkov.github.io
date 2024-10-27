@@ -10,7 +10,6 @@ name: Viacheslav Buchkov
 title: Quantitative Researcher
 email: viacheslav.buchkov@gmail.com
 phone: **+41 76 291 82 80**
-# phone: **+ 76 291 82 80**
 location: Zurich, Switzerland
 
 # Dark Mode (true/false/never)
@@ -307,7 +306,7 @@ content:
 
       # Thanks for your attention!
 
-      ![Trophy](images/trophy.jpg "Trophy")
+      ![Trophy](images/landscape-trees.jpg "Trophy")
 
 # Footer
 footer_show_references: true
