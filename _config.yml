@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
-  Programming Skills: <mark>Quantitative Investment Strategies</mark>
+  Programming Skills: <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -188,7 +188,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Extracurricular training program in quantitative finance and applied machine learning topics**
 
-          <br>Grade: Top-4 in Final Rating of Students</br>
+          Grade: Top-4 in Final Rating of Students
+
           Top-1 in Portfolio Optimization and Risk Management Exam
 
           Top-2 in Equity Derivatives & FX Derivatives Exam
@@ -196,33 +197,108 @@ content:
         title: Avito Analytics Academy
         caption: 2022-2023 (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
-          Data Science Engineer Training Program
+          **Data Science Engineer Training Program**
 
           Program from [Top-1 E-Commerce Classified](https://www.similarweb.com/top-websites/e-commerce-and-shopping/classifieds/)
       - layout: left
         title: Bocconi University
         caption: Summer 2019 (Milan, Italy)
         description: | # this will include new lines to allow paragraphs
-          Equity and Venture Financing Summer School Program
+          **Equity and Venture Financing Summer School Program**
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Interest Rate Derivatives project
+        link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Portfolio Management project
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: Short Rate (Short SDF) Stochastic Simulation
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      - layout: top-middle
+        title: Interest Rate Derivatives project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: Short Rate (Short SDF) Stochastic Simulation
+            icon: fab fa-github
+            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        description: | # this will include new lines to allow paragraphs
+          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
 
   - title: A Little More About Me
     layout: text
