@@ -140,16 +140,22 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+      - layout: top-middle
+        title: ETH Zurich
+        caption: 2024-2026
+        sub_title: MSc Quantitative Finance
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          (Zurich, Switzerland)
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          The specialized Master program “Master of Science UZH ETH in Quantitative Finance” (MScQF) is a program offered jointly by the University of Zurich and ETH Zurich.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Ranked number 1 in Europe and on the 7th position worldwide in the RiskNet Quant Finance Master's Guide 2023.
+      - layout: top-middle
+        title: University of Zurich
+        caption: 2024-2026
+        sub_title: MSc Quantitative Finance
+        quote: >
+          (Zurich, Switzerland)
 
   - title: A Little More About Me
     layout: text
