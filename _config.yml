@@ -273,28 +273,18 @@ content:
       - layout: top-middle
         title: Python-based Automatization of Russian Metals&Mining bonds fundamental analysis
         description: | # this will include new lines to allow paragraphs
-          **(Grade 10/10)** Developed algorithmic tool for public credit quality prediction, pricing, search for undervalued bonds
+          **(Grade 10/10)** Developed algorithmic tool for public credit quality prediction, pricing, search for undervalued bonds.
 
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        title: Analytical article on severe inflationary consequences of the monetary stimuli in the US
+        link: https://www.investing.com/analysis/markets-better-not-lose-their-fed-200523342
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          Article that studies behavioral inefficiencies, which have arisen from the biased monetary policy in US.
+      
       - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        title: Investment Roboadvising Algorithm
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          **(Grade 10/10)** Prototype of an automated advisor that outputs mean-variance optimal portfolio.
 
   - title: A Little More About Me
     layout: text
