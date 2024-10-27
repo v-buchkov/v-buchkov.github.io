@@ -238,7 +238,7 @@ content:
           **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
       
       - layout: top-middle
-        title: Development of FX market-maker simulator game for HSE MSc Derivatives course
+        title: Development of FX Market-Maker Simulator Game
         link: t.me/FXTraderSimulatorBot
         # link_text: Project Website
         additional_links:
@@ -246,10 +246,10 @@ content:
             icon: fab fa-telegram
             url: t.me/FXTraderSimulatorBot
         description: | # this will include new lines to allow paragraphs
-          Designing and programming game for simulating a market-maker’s task for hedging out corporate flow.
+          Designing and programming game for simulating a market-maker’s task for hedging out corporate flow for HSE MSc Derivatives course.
       
       - layout: top-middle
-        title: Natural Language Processing-based MOEX FX straddle vega and gamma trading strategy
+        title: Natural Language Processing-based MOEX FX Straddle Vega and Gamma Trading Strategy
         link: github.com/v-buchkov/hse_volatility_project
         # link_text: Project Website
         additional_links:
@@ -271,12 +271,12 @@ content:
           Pricing library pet-project, driven by analytical solutions of PDE and Monte Carlo simulations.
       
       - layout: top-middle
-        title: Python-based Automatization of Russian Metals&Mining bonds fundamental analysis
+        title: Python-based Automatization of Russian Metals&Mining Bonds Fundamental Analysis
         description: | # this will include new lines to allow paragraphs
           **(Grade 10/10)** Developed algorithmic tool for public credit quality prediction, pricing, search for undervalued bonds.
 
       - layout: top-middle
-        title: Analytical article on severe inflationary consequences of the monetary stimuli in the US
+        title: Macroeconomic Research on US Monetary Policy after 2020
         link: https://www.investing.com/analysis/markets-better-not-lose-their-fed-200523342
         description: | # this will include new lines to allow paragraphs
           Article that studies behavioral inefficiencies, which have arisen from the biased monetary policy in US.
