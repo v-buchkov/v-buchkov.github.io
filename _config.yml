@@ -58,13 +58,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Raiffeisenbank JSC
+        title: Raiffeisenbank JSC, RBI Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
         sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
         caption: July 2023 - Present
         quote: >
-          Raiffeisen Bank International Group (Moscow, Russia - remote work)
+          (Moscow, Russia - remote work)
         description: | # this will include new lines to allow paragraphs
             Supervising and leading quant research and product development in:
             * Factor Investing in Equity and Fixed Income
@@ -74,8 +74,6 @@ content:
             * Financial and non-financial (real estate, salary) cash flows Beta Factorization
             * RUB Interest Rates Beta Strategies
       - layout: left
-        title: Raiffeisenbank JSC
-        link: raiffeisen.ru
         # link_text: boringcompany.com
         sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
         caption: July 2023 - Present
