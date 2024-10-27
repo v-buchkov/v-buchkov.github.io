@@ -165,16 +165,11 @@ content:
           **GPA 3.90 / 4.0**
 
       - layout: top-middle
-        title: | # this will include new lines to allow paragraphs
-          National Research University Higher School of Economics
-          
-          International College of Economics and Finance
-          
-          University of London (under academic direction of London School of Economics)
+        title: National Research University Higher School of Economics & University of London
         caption: 2018-2022
         sub_title: Dual degree BSc in Economics and Finance
         quote: >
-          Machine Learning and Data-Intensive Systems, Faculty of Computer Science (Moscow, Russia)
+          International College of Economics and Finance & University of London (under academic direction of London School of Economics) (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
           Relevant courses: Statistics (10/10), Principles of Banking and Finance (10/10), Programming and Data Processing (9/10)
           
