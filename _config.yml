@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
 content:
-  - title: Experience # Title for the section
+  - title: **Experience** # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -75,18 +75,12 @@ content:
             * RUB Interest Rates Beta Strategies
       - layout: left
         # link_text: boringcompany.com
-        sub_title: Senior Officer, Quantitative Investment Strategies, Capital Markets
-        caption: July 2023 - Present
-        quote: >
-          Raiffeisen Bank International Group (Moscow, Russia - remote work)
+        sub_title: Product Manager, Prime Brokerage & Investment Products
+        caption: April 2022 - June 2023
         description: | # this will include new lines to allow paragraphs
-            Supervising and leading quant research and product development in:
-            * Factor Investing in Equity and Fixed Income
-            * Smart Beta Strategies
-            * Beta Factor Advisory & Investment Engine
-            * Beta Factor Index replication via Reinforcement Learning
-            * Financial and non-financial (real estate, salary) cash flows Beta Factorization
-            * RUB Interest Rates Beta Strategies
+            * Supervised Institutional Brokerage Software Engineering team of 22 engineers
+            * Designed architecture of prime brokerage services, planning roadmap and prioritizing initiatives
+            * Initializing and project leading new Institutional Prime Brokerage and Investment products
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
