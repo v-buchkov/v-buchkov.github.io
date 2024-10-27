@@ -211,6 +211,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Winner of Open Hackaton in Quantitative Finance (The Experts School of Quants)
+        description: | # this will include new lines to allow paragraphs
+          Market order classification for BUY/SELL vs HOLD via ML&DL, including feature selection
+
+      - layout: top-middle
         title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation
         link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         # link_text: Project Website
@@ -231,17 +236,6 @@ content:
             url: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         description: | # this will include new lines to allow paragraphs
           **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
-
-      - layout: top-middle
-        title: Interest Rate Derivatives project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
-        description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
       
       - layout: top-middle
         title: Interest Rate Derivatives project
