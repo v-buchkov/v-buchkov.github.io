@@ -12,7 +12,7 @@ email: viacheslav.buchkov@gmail.com
 website: +41 76 291 82 80
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -50,7 +50,7 @@ about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Viacheslav and I'm an aspiring quantitative researcher with a total 5 years of experience in Quantitative Asset Management, possessing strong statistical learning, portfolio optimization and derivatives pricing skills.
 
-  I am most skilled in: <mark>Quantitative Investment Strategies</mark> and <mark>Structured Products</mark>
+  I am most skilled in: <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
 content:
   - title: Projects # Title for the section
