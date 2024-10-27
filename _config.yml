@@ -304,9 +304,19 @@ content:
       - Poker
       - Skiing
 
-  - title: Thanks for your attention!
-    layout: top-middle
+  - title: Hobbies & Sports
+    layout: text
     content: | # this will include new lines to allow paragraphs
+      Alongside with my interests in quantitative finance and machine learning some of my other interests and hobbies are:
+      - Fencing (captain of city’s team at Cup of Russia)
+      - Football (vice-captain of 3 teams in Moscow championships)
+      - Modern Russian literature
+      - Game Design
+      - Poker
+      - Skiing
+
+      # Thanks for your attention!
+
       ![Trophy](images/trophy.jpg "Trophy")
 
 # Footer
