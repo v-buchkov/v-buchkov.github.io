@@ -126,7 +126,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             * Published 36 articles on the daily news of financial markets, analyzing the impact on prices of instruments
             * Completed fundamental analysis of equity and debt instruments of the largest international oﬀshore drilling companies with two investment ideas in debt instruments
-      - layout: left
+      - layout: top-middle
         title: Rosbank, Société Générale Group
         link: rosbank.ru
         # link_text: boringcompany.com
@@ -141,21 +141,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: ETH Zurich
+        title: ETH Zurich & University of Zurich
         caption: 2024-2026
         sub_title: MSc Quantitative Finance
         quote: >
-          (Zurich, Switzerland)
+          Master of Science UZH ETH in Quantitative Finance (Zurich, Switzerland)
         description: | # this will include new lines to allow paragraphs
           The specialized Master program “Master of Science UZH ETH in Quantitative Finance” (MScQF) is a program offered jointly by the University of Zurich and ETH Zurich.
 
           Ranked number 1 in Europe and on the 7th position worldwide in the RiskNet Quant Finance Master's Guide 2023.
+
       - layout: top-middle
-        title: University of Zurich
+        title: National Research University Higher School of Economics
         caption: 2024-2026
-        sub_title: MSc Quantitative Finance
+        sub_title: MSc in Applied Mathematics & Informatics *with Distinction*
         quote: >
-          (Zurich, Switzerland)
+          Machine Learning and Data-Intensive Systems, Faculty of Computer Science (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+          Relevant courses: Reinforcement Learning (top-1 of the course), Deep Learning (10/10), Natural Language Processing (10/10)
+          **Thesis: “Hedging Derivatives Under Incomplete Markets with Deep Learning” (Grade 10/10, GitHub: https://github.com/v-buchkov/deep-hedging, Pip: _pip install deep_hedging_)**
+
+          **GPA 3.90 / 4.0**
 
   - title: A Little More About Me
     layout: text
