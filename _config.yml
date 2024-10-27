@@ -182,26 +182,27 @@ content:
     content:
       - layout: left
         title: The Experts School of Quants
-        caption: 2023-2024
-        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
+        caption: 2023-2024 (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
-          Grade: Top-4 in Final Rating of Students\ Top-1 in Portfolio Optimization and Risk Management Exam\ Top-2 in Equity Derivatives & FX Derivatives Exam
-      - layout: left
-        title: Avito Analytics Academy
-        caption: 2022-2023
-        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
-        description: | # this will include new lines to allow paragraphs
-          Program from [Top-1 E-Commerce Classified](https://www.similarweb.com/top-websites/e-commerce-and-shopping/classifieds/)
-      - layout: left
-        title: The Experts School of Quants
-        caption: 2023-2024
-        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
-        description: | # this will include new lines to allow paragraphs
+          **Extracurricular training program in quantitative finance and applied machine learning topics**
+
           Grade: Top-4 in Final Rating of Students
 
           Top-1 in Portfolio Optimization and Risk Management Exam
 
           Top-2 in Equity Derivatives & FX Derivatives Exam
+      - layout: left
+        title: Avito Analytics Academy
+        caption: 2022-2023 (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+          Data Science Engineer Training Program
+
+          Program from [Top-1 E-Commerce Classified](https://www.similarweb.com/top-websites/e-commerce-and-shopping/classifieds/)
+      - layout: left
+        title: Bocconi University
+        caption: Summer 2019 (Milan, Italy)
+        description: | # this will include new lines to allow paragraphs
+          Equity and Venture Financing Summer School Program
 
   - title: A Little More About Me
     layout: text
