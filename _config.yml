@@ -9,7 +9,7 @@ version: 2
 name: Viacheslav Buchkov
 title: Quantitative Researcher
 email: viacheslav.buchkov@gmail.com
-phone: **+41 76 291 82 80**
+phone: +41 76 291 82 80
 location: Zurich, Switzerland
 
 # Dark Mode (true/false/never)
@@ -211,12 +211,12 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Winner of Open Hackaton in Quantitative Finance (The Experts School of Quants)
         description: | # this will include new lines to allow paragraphs
           Market order classification for BUY/SELL vs HOLD via ML&DL, including feature selection
 
-      - layout: left
+      - layout: top-middle
         title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation
         link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         # link_text: Project Website
@@ -304,8 +304,7 @@ content:
       - Poker
       - Skiing
 
-      # Thanks for your attention!
-
+      Thanks for your attention!
       ![Trophy](images/landscape-trees.jpg "Trophy")
 
 # Footer
