@@ -31,9 +31,9 @@ github_username:  v-buchkov
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: Email
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: mailto:viacheslav.buchkov@gmail.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Senior Network System Administrator
