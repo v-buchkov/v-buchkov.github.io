@@ -53,7 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark> and <mark>Derivatives Pricing</mark>.
 
-  Programming Skills: <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
+  ## Programming Skills:
+  <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -210,7 +211,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation (Grade 48/50)
+        title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation
         link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         # link_text: Project Website
         additional_links:
@@ -218,10 +219,10 @@ content:
             icon: fab fa-github
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
-          Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+          **(Grade 48/50)** Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
       
       - layout: top-middle
-        title: Portfolio Management - Quantitative Investment Strategy Backtesting (Grade 10/10)
+        title: Portfolio Management - Quantitative Investment Strategy Backtesting
         link: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         # link_text: Project Website
         additional_links:
@@ -229,7 +230,7 @@ content:
             icon: fab fa-github
             url: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         description: | # this will include new lines to allow paragraphs
-          Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
+          **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
 
       - layout: top-middle
         title: Interest Rate Derivatives project
@@ -241,6 +242,7 @@ content:
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
@@ -251,6 +253,7 @@ content:
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
@@ -261,6 +264,7 @@ content:
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
@@ -271,6 +275,7 @@ content:
             url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
+      
       - layout: top-middle
         title: Interest Rate Derivatives project
         link: github.com/sproogen
