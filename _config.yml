@@ -221,12 +221,11 @@ content:
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
       - layout: top-middle
         title: Portfolio Management project
-        link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title: Short Rate (Short SDF) Stochastic Simulation
             icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+            url: https://github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
         description: | # this will include new lines to allow paragraphs
           Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
       - layout: top-middle
