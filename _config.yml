@@ -173,9 +173,35 @@ content:
         description: | # this will include new lines to allow paragraphs
           Relevant courses: Statistics (10/10), Principles of Banking and Finance (10/10), Programming and Data Processing (9/10)
           
-          **Thesis: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products” (Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee)**
+          **Thesis: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”**\ **(Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee)**
 
           **GPA 3.81 / 4.0**
+
+  - title: Additional Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Experts School of Quants
+        caption: 2023-2024
+        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
+        description: | # this will include new lines to allow paragraphs
+          Grade: Top-4 in Final Rating of Students\ Top-1 in Portfolio Optimization and Risk Management Exam\ Top-2 in Equity Derivatives & FX Derivatives Exam
+      - layout: left
+        title: Avito Analytics Academy
+        caption: 2022-2023
+        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
+        description: | # this will include new lines to allow paragraphs
+          Program from [Top-1 E-Commerce Classified](https://www.similarweb.com/top-websites/e-commerce-and-shopping/classifieds/)
+      - layout: left
+        title: The Experts School of Quants
+        caption: 2023-2024
+        sub_title: Extracurricular training program in quantitative finance and applied machine learning topics
+        description: | # this will include new lines to allow paragraphs
+          Grade: Top-4 in Final Rating of Students
+
+          Top-1 in Portfolio Optimization and Risk Management Exam
+
+          Top-2 in Equity Derivatives & FX Derivatives Exam
 
   - title: A Little More About Me
     layout: text
