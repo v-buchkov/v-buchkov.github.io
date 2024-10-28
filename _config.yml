@@ -164,7 +164,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Relevant Courses**: Reinforcement Learning (**top-1 of the course**), Deep Learning (10/10), Natural Language Processing (10/10)
           
-          **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning” (Grade 10/10, GitHub: https://github.com/v-buchkov/deep-hedging, Pip: _pip install deep_hedging_)
+          **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning”
+
+          (Grade 10/10, GitHub: https://github.com/v-buchkov/deep-hedging, Pip: _pip install deep_hedging_)
 
           **GPA 3.90 / 4.0**
 
@@ -177,7 +179,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Relevant Courses**: Statistics (10/10), Principles of Banking and Finance (10/10), Programming and Data Processing (9/10)
           
-          **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”**\ **(Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee)
+          **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”
+
+          (Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee)
 
           **GPA 3.81 / 4.0**
 
