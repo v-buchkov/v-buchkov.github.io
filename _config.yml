@@ -65,8 +65,8 @@ content:
         title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
-        sub_title: Senior Officer, Quantitative Investment Strategies
-        caption: July 2023 - Present
+        sub_title: Vice President for Investment Product Development, Quantitative Investment Strategies
+        caption: November 2024 - Present
         quote: >
           (Moscow, Russia - remote work)
         description: | # this will include new lines to allow paragraphs
@@ -77,6 +77,16 @@ content:
             * Beta Factor Index replication via Reinforcement Learning
             * Financial and non-financial (real estate, salary) cash flows Beta Factorization
             * RUB Interest Rates Beta Strategies
+      - layout: top-middle
+        title: Raiffeisenbank JSC, Raiffeisen Bank International Group
+        link: raiffeisen.ru
+        # link_text: boringcompany.com
+        sub_title: Senior Officer, Quantitative Investment Strategies
+        caption: July 2023 - October 2024
+        quote: >
+          (Moscow, Russia - remote work)
+        description: | # this will include new lines to allow paragraphs
+            * Successfully introduced 4 Fixed Income / 2 Equity Quantitative Strategies with AUM of $97+ mio
       - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Product Manager, Prime Brokerage & Investment Products
