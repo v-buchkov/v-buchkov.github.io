@@ -49,11 +49,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Viacheslav and I'm an aspiring quantitative researcher with a total 5 years of experience in Quantitative Asset Management, possessing strong statistical learning, portfolio optimization and derivatives pricing skills.
+  Hi, my name's Viacheslav and I'm Quantitative Researcher with a total 5 years of experience in Structured Products, Exotic Derivatives and Quantitative Asset Management, possessing strong machine learning, derivatives pricing and portfolio optimization skills.
 
   ## Research Interests:
-  My primary professional and academic research topics of interest are <mark>Quantitative Investment Strategies</mark>, <mark>Structured Products</mark>, <mark>Derivatives Pricing</mark> and <mark>Roboadvisory</mark>.
-
+  My primary professional and academic research topics of interest are <mark>Structured Products</mark>, <mark>Derivatives Pricing</mark>, <mark>Quantitative Investment Strategies</mark> and <mark>Roboadvisory</mark>.
+  
   ## Programming Skills:
   <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
 
@@ -65,17 +65,15 @@ content:
         title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
-        sub_title: Vice President for Investment Product Development, Quantitative Investment Strategies
+        sub_title: Vice President, Quantitative Investment Strategies
         caption: November 2024 - Present
         quote: >
           (Moscow, Russia - remote work)
         description: | # this will include new lines to allow paragraphs
-            Supervising and leading quant research and product development in:
-            * Factor Investing in Equity and Fixed Income
-            * Smart Beta Strategies
-            * Beta Factor Advisory & Investment Engine
+            Supervising and leading quantitative research and in:
+            * ML-Driven Factor Investing & Smart Beta in Equity and Fixed Income
             * Beta Factor Index replication via Reinforcement Learning
-            * Financial and non-financial (real estate, salary) cash flows Beta Factorization
+            * Factor RoboAdvisory for financial and non-financial (real estate, salary) cash flow decomposition
             * RUB Interest Rates Beta Strategies
       - layout: top-middle
         # link_text: boringcompany.com
@@ -92,9 +90,9 @@ content:
         quote: >
           (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
+            * Owned and led the engineering, product development and monetization of Corporate Clients Investments platform with total daily volume of $782.89 mio
             * Supervised Institutional Brokerage Software Engineering team of 22 engineers
             * Designed architecture of prime brokerage services, planning roadmap and prioritizing initiatives
-            * Initializing and project leading new Institutional Prime Brokerage and Investment products
       - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Quantitative Analyst, Structured Products
@@ -163,6 +161,8 @@ content:
 
           Ranked number 1 in Europe and on the 7th position worldwide in the RiskNet Quant Finance Master's Guide 2023.
 
+          **Relevant courses**: Probabilistic AI, ML in Finance & Insurance, Asset Management: Advanced Investments, MATLAB in Portfolio Management, Dynamic Programming and Optimal Control
+
       - layout: top-middle
         title: National Research University Higher School of Economics
         caption: 2022-2024
@@ -174,7 +174,9 @@ content:
           
           **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning”
 
-          (Grade 10/10, [GitHub Repository](https://github.com/v-buchkov/deep-hedging), Pip: _pip install deep_hedging_)
+          **Grade 10/10, “HSE Scientific Research Challenge 2024” Awardee**
+
+          [GitHub Repository](https://github.com/v-buchkov/deep-hedging), Pip: _pip install deep_hedging_
 
           **GPA 3.90 / 4.0**
 
@@ -189,7 +191,7 @@ content:
           
           **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”
 
-          (Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee)
+          **Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee**
 
           **GPA 3.81 / 4.0**
 
@@ -224,7 +226,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Winner of Open Hackaton in Quantitative Finance (The Experts School of Quants)
+        title: _Winner of Open Hackaton in Quantitative Finance_ (The Experts School of Quants)
         description: | # this will include new lines to allow paragraphs
           Market order classification for BUY/SELL vs HOLD via ML&DL, including feature selection
 
