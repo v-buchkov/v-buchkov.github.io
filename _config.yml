@@ -12,7 +12,7 @@ email: vbuchkov@ethz.ch
 location: Zurich, Switzerland
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 # twitter_username: facespics

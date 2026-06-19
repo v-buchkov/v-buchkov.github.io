@@ -1,5 +1,43 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# Front matter required so Jekyll compiles this file.
+# This file shadows sproogen/resume-theme's own assets/main.scss.
 ---
 
 @import 'modern-resume-theme';
+
+/* ----------------------------------------------------------------
+   Poster-matched light palette
+     navy  #16284d  — name, section titles, marks, social-icon circles
+     teal  #1b8b9c  — links, inline icons, section-title underline
+   ---------------------------------------------------------------- */
+
+$navy: #16284d;
+$teal: #1b8b9c;
+$teal-dark: #13707e;
+
+/* Links and inline (icon) links */
+a { color: $teal; }
+a:active,
+a:focus,
+a:hover { color: $teal-dark; }
+
+/* Name (h1) and section titles (h3) in navy; teal accent underline on sections */
+h1 { color: $navy; }
+h3 {
+  color: $navy;
+  border-bottom-color: $teal;
+}
+
+/* Highlight marks (e.g. Programming Skills) */
+mark { background-color: $navy; }
+
+/* Social-icon circles in the header */
+.button--sacnite::before { box-shadow: inset 0 0 0 35px $navy; }
+.button--sacnite:hover::before,
+.button--sacnite:focus::before { box-shadow: inset 0 0 0 35px $teal; }
+
+/* Standard buttons (if any are rendered) */
+button,
+input[type="submit"] { background-color: $teal; }
+button:hover,
+input[type="submit"]:hover { background-color: $teal-dark; }
