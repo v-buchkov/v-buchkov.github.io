@@ -162,7 +162,7 @@ content:
         sub_title: Reinforcement Learning (≈ 320 students) — Co-Lecturer & Head TA
         caption: January 2026 - Present
         description: | # this will include new lines to allow paragraphs
-          Co-lecturing Reinforcement Learning (DP, Q-Learning, TRPO/PPO, RL in Finance — 5 of 11 lectures) and leading the teaching-assistant team.
+          Teaching 5 out of 11 lectures (DP, Q-Learning, TRPO/PPO, (Contextual) Bandits, RL in Finance) and leading the teaching-assistant team.
 
   - title: Research Affiliations # Title for the section
     layout: list # Type of content section (list/text)
@@ -179,8 +179,8 @@ content:
 
           Year 2: implemented a live deployment of equity beta-hedged statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team, with selected results (net Sharpe ratio):
 
-          - Volume Shocks & Overnight Returns (6/6): backtest 1.05, live in progress (intraday data)
-          - ML Fractional Momentum Selection & Timing (5.5/6): backtest 1.04, live 0.73
+          - Volume Shocks & Overnight Returns: backtest 1.05, live in progress (intraday data)
+          - ML Fractional Momentum Selection & Timing: backtest 1.04, live 0.73
           - Ensembling Momentum Under Transaction Costs: backtest 0.86, live in progress
           - Contextual Bandits for Uncertainty-Aware Allocation: backtest 0.61, live 0.42
 
@@ -375,16 +375,16 @@ content:
   - title: Additional Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Summer School in Finance (Investment Management), WU Vienna
         caption: August 2025 (Vienna, Austria) · Grade 1.0 (100%)
-      - layout: left
+      - layout: top-middle
         title: SoFiE Summer School in Financial Machine Learning, Yale University
         caption: July-August 2025 (New Haven, USA)
-      - layout: left
+      - layout: top-middle
         title: AI in Finance Summer School, Nanyang Technological University
         caption: July 2025 (Singapore)
-      - layout: left
+      - layout: top-middle
         title: The Experts School of Quants
         caption: 2023-2024 (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
@@ -395,14 +395,14 @@ content:
           Top-1 in Portfolio Optimization and Risk Management Exam
 
           Top-2 in Equity Derivatives & FX Derivatives Exam
-      - layout: left
+      - layout: top-middle
         title: Avito Analytics Academy
         caption: 2022-2023 (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
           **Data Science Engineer Training Program**
 
           Program from [Top-1 E-Commerce Classified](https://www.similarweb.com/top-websites/e-commerce-and-shopping/classifieds/)
-      - layout: left
+      - layout: top-middle
         title: Bocconi University
         caption: Summer 2019 (Milan, Italy)
         description: | # this will include new lines to allow paragraphs
@@ -428,7 +428,7 @@ content:
       - English (proficient, IELTS 8.0/9.0)
       - Russian (native)
 
-  - title: Hobbies & Sports
+  - title: Hobbies
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in quantitative finance and machine learning, some of my other interests and hobbies are:
