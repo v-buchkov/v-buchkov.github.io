@@ -21,7 +21,7 @@ darkmode: never
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-linkedin_username: v-buchkov
+# linkedin_username: v-buchkov  # disabled: LinkedIn is provided via additional_links instead (after PyPI)
 github_username:  v-buchkov
 # xing_username: jekyll
 # pinterest_username: jekyll
