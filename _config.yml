@@ -162,7 +162,7 @@ content:
         sub_title: Reinforcement Learning (≈ 320 students) — Co-Lecturer & Head TA
         caption: January 2026 - Present
         description: | # this will include new lines to allow paragraphs
-          Teaching 5 out of 11 lectures (DP, Q-Learning, TRPO/PPO, (Contextual) Bandits, RL in Finance) and leading the teaching-assistant team.
+          Teaching 5 out of 11 lectures: DP, Q-Learning, TRPO/PPO, (Contextual) Bandits, RL in Finance; leading the teaching-assistant team.
 
   - title: Research Affiliations # Title for the section
     layout: list # Type of content section (list/text)
@@ -253,7 +253,7 @@ content:
             url: https://github.com/ashnvael/qamsi
         caption: June 2025 (UZH Quant AM & SI — Grade 6/6)
         description: | # this will include new lines to allow paragraphs
-          Improved De Nard & Kostovic policy learning method with Imitation Learning theory (~15% gap to the oracle).
+          Improvement of the De Nard & Kostovic policy-learning method via Imitation Learning theory (~15% gap to the oracle).
       - layout: top-middle
         title: Bayesian LSTM Ensemble for Short-Term Volatility Prediction with Orderbook Features
         additional_links:
@@ -332,7 +332,7 @@ content:
         quote: >
           (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
-            * Owned and led the engineering, product development and monetization of Corporate Clients Investments platform with total daily volume of $782.89 mio
+            * Owned and led the engineering, product development and monetization of the Corporate Clients Investments platform with total daily volume of $782.89 mio
             * Supervised Institutional Brokerage Software Engineering team of 22 engineers
       - layout: top-middle
         sub_title: Quantitative Analyst, Structured Products
@@ -431,7 +431,7 @@ content:
   - title: Hobbies
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in quantitative finance and machine learning, some of my other interests and hobbies are:
+      Alongside my work in quantitative finance and machine learning, I also enjoy
       - Strategic card games (Preferans)
       - Fencing — national & international U18 medalist; captain of the state team
       - Football — professional U16 medalist; vice-captain of several amateur-league teams
