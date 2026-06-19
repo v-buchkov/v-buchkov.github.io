@@ -8,8 +8,7 @@ version: 2
 # Personal info
 name: Viacheslav Buchkov
 title: Quantitative Researcher
-email: viacheslav.buchkov@gmail.com
-phone: +41 76 291 82 80
+email: vbuchkov@ethz.ch
 location: Zurich, Switzerland
 
 # Dark Mode (true/false/never)
@@ -34,7 +33,13 @@ github_username:  v-buchkov
 additional_links:
 - title: Email
   icon: fas fa-globe
-  url: mailto:viacheslav.buchkov@gmail.com
+  url: mailto:vbuchkov@ethz.ch
+- title: PyPI
+  icon: fab fa-python
+  url: https://pypi.org/user/v-buchkov/
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/v-buchkov/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,15 +54,57 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Viacheslav and I'm Quantitative Researcher with a total 5 years of experience in Structured Products, Exotic Derivatives and Quantitative Asset Management, possessing strong machine learning, derivatives pricing and portfolio optimization skills.
+  MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. Prior work and industry experience span economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
 
   ## Research Interests:
-  My primary professional and academic research topics of interest are <mark>Structured Products</mark>, <mark>Derivatives Pricing</mark>, <mark>Quantitative Investment Strategies</mark> and <mark>Roboadvisory</mark>.
-  
+  - ML/RL for high-dimensional portfolio construction
+  - Decision-making under low signal-to-noise
+  - Economic-loss covariance estimation
+  - Cost-aware portfolio construction
+  - Statistical arbitrage
+  - Volatility forecasting
+  - Deep hedging
+
   ## Programming Skills:
-  <mark>Python</mark>, <mark>MATLAB</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>Golang</mark>, <mark>R</mark>.
+  <mark>Python</mark> (PyTorch, JAX, Flax, polars, gymnasium, hf-transformers), <mark>MATLAB</mark>, <mark>Java</mark>, <mark>C++</mark>, <mark>R</mark>, <mark>Golang</mark>, <mark>SQL</mark>.
 
 content:
+  - title: Research # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "Working Paper: Shrinkage Estimation of Covariance Matrices — Economic Loss Minimization with Reinforcement Learning"
+        link: assets/poster.pdf
+        additional_links:
+          - title: Poster (PDF)
+            icon: fas fa-file-pdf
+            url: assets/poster.pdf
+        sub_title: with Gianluca De Nard & Urban Ulrych
+        caption: 2026 — In preparation for submission to International Journal of Forecasting
+        description: | # this will include new lines to allow paragraphs
+          Learns a regime-dependent shrinkage intensity that directly minimizes an economic loss — out-of-sample portfolio risk — rather than a statistical surrogate, via VAR contextual bandits over RFF-encoded market states. The estimator is Bayes-optimal with respect to the observed features and reduces the regret (gap to the oracle) relative to policy learning: around one-third for linear shrinkage and 9–40% for non-linear shrinkage across asset universes.
+      - layout: top-middle
+        title: "Working Paper: Strategy-Agnostic Cost-Aware Position Smoothing via Contextual Bandits"
+        sub_title: with Urban Ulrych
+        caption: 2026 — In preparation for submission
+        description: | # this will include new lines to allow paragraphs
+          Learns the expected return vs turnover trade-off via FPCA-encoded reward contextual bandits, applied to a convex optimization layer for exogenous weights. Improves gross-to-turnover ratio by 30–80 bps.
+      - layout: top-middle
+        title: "Contributed Talk — RL Covariance Shrinkage (w/ De Nard, Ulrych)"
+        caption: September 2026 (accepted)
+        description: | # this will include new lines to allow paragraphs
+          Freddy Delbaen Conference ("From Analysis to Mathematical Finance and Insurance"), ETH Zurich, 7–9 Sep 2026.
+      - layout: top-middle
+        title: "Poster — RL Shrinkage Paper (w/ De Nard, Ulrych)"
+        link: assets/poster.pdf
+        additional_links:
+          - title: Poster (PDF)
+            icon: fas fa-file-pdf
+            url: assets/poster.pdf
+        caption: June 2026 (accepted)
+        description: | # this will include new lines to allow paragraphs
+          3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich, 22–25 Jun 2026 (invitation-only; admitted as MSc student).
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -65,16 +112,26 @@ content:
         title: Raiffeisenbank JSC, Raiffeisen Bank International Group
         link: raiffeisen.ru
         # link_text: boringcompany.com
-        sub_title: Vice President, Quantitative Investment Strategies
-        caption: November 2024 - Present
+        sub_title: SVP & Product Owner, Quantitative Investment Strategies
+        caption: November 2025 - Present
         quote: >
-          (Moscow, Russia - remote work)
+          (Moscow, Russia - remote from Zurich since Aug 2024)
         description: | # this will include new lines to allow paragraphs
-            Supervising and leading quantitative research and in:
-            * ML-Driven Factor Investing & Smart Beta in Equity and Fixed Income
-            * Beta Factor Index replication via Reinforcement Learning
-            * Factor RoboAdvisory for financial and non-financial (real estate, salary) cash flow decomposition
-            * RUB Interest Rates Beta Strategies
+            Leading a 9-person QR team running 12 strategies with $815M AUM:
+            * FX Futures / Perps Stat Arb: OU parameters via DL state-space model; live as a cost-aware EWMA policy
+            * ML Multi-Signal Factor Strategies on Shanghai, Shenzhen and RU Exchanges (3 strategies, $100M+ AUM)
+            * Academic Beta Factors cost-aware replication via Reinforcement Learning ($60M+ AUM)
+            * RUB interest-rate ML beta strategies: yield-curve-shape prediction for a government-bond portfolio ($90M+ AUM)
+            * Factor decomposition of financial and non-financial (real estate, salary) cash flow — RoboAdvisory
+            * Factor-regression attribution layer with a Mistral LLM for strategy explanation in a client-facing AM app
+      - layout: top-middle
+        # link_text: boringcompany.com
+        sub_title: Vice President, Quantitative Investment Strategies
+        caption: November 2024 - October 2025
+        quote: >
+          (Moscow, Russia - remote from Zurich)
+        description: | # this will include new lines to allow paragraphs
+            * Led ML-driven factor investing & smart beta in equity and fixed income, beta-factor index replication via RL and factor RoboAdvisory
       - layout: top-middle
         # link_text: boringcompany.com
         sub_title: Senior Officer, Quantitative Investment Strategies
@@ -147,21 +204,43 @@ content:
         description: | # this will include new lines to allow paragraphs
             Completed fundamental top-down analysis of the Russian Metals&Mining sector with two investment ideas in debt instruments and two ideas in equity
 
+  - title: Teaching & Research Affiliations # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: National Research University Higher School of Economics — Faculty of Computer Science
+        sub_title: Reinforcement Learning (320 students) — Co-Lecturer & Head TA
+        caption: January 2026 - Present
+        description: | # this will include new lines to allow paragraphs
+          Co-lecturing Reinforcement Learning (DP, Q-Learning, TRPO/PPO, RL in Finance — 5 of 11 lectures) and leading the teaching-assistant team.
+      - layout: top-middle
+        title: University of Zurich Portfolio Management Program — Qube RT Team
+        caption: September 2024 - May 2026 (Zurich)
+        description: | # this will include new lines to allow paragraphs
+          Highly selective 2-year hands-on research program (18 / 100+ admitted to the program, 7 graduated); bi-weekly research meetings at QRT's Zurich office; presented research every 3 weeks to a UBS / QRT / UZH audience.
+
+          Year 2: implemented a live deployment of equity beta-hedged statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team, with selected results (net Sharpe ratio):
+
+          - Volume Shocks & Overnight Returns (6/6): backtest 1.05, live in progress (intraday data)
+          - ML Fractional Momentum Selection & Timing (5.5/6): backtest 1.04, live 0.73
+          - Ensembling Momentum Under Transaction Costs: backtest 0.86, live in progress
+          - Contextual Bandits for Uncertainty-Aware Allocation: backtest 0.61, live 0.42
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: ETH Zurich & University of Zurich
-        caption: 2024-2026
+        caption: 2024-Present
         sub_title: MSc Quantitative Finance
         quote: >
           Master of Science UZH ETH in Quantitative Finance (Zurich, Switzerland)
         description: | # this will include new lines to allow paragraphs
-          The specialized Master program “Master of Science UZH ETH in Quantitative Finance” (MScQF) is a program offered jointly by the University of Zurich and ETH Zurich.
+          The specialized Master program “Master of Science UZH ETH in Quantitative Finance” (MScQF) is offered jointly by the University of Zurich and ETH Zurich, by the Department of Mathematics and the Faculty of Business, Economics and Informatics.
 
-          Ranked number 1 in Europe and on the 7th position worldwide in the RiskNet Quant Finance Master's Guide 2023.
+          **Relevant courses**: High-Dimensional Statistics with Prof. Bühlmann (6/6), Probabilistic AI with Prof. Krause (5.75/6), ML in Finance & Complex Systems (5.5/6), Quant AM and Systematic Investments (6/6), Quant PM with Python (6/6), Investments Quant Tools (6/6), AM: Advanced Investments (5.75/6)
 
-          **Relevant courses**: Probabilistic AI, ML in Finance & Insurance, Asset Management: Advanced Investments, MATLAB in Portfolio Management, Dynamic Programming and Optimal Control
+          **Expected GPA 5.6 / 6.0**
 
       - layout: top-middle
         title: National Research University Higher School of Economics
@@ -170,15 +249,15 @@ content:
         quote: >
           Machine Learning and Data-Intensive Systems, Faculty of Computer Science (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
-          **Relevant Courses**: Reinforcement Learning (**top-1 of the course**), Deep Learning (10/10), Natural Language Processing (10/10)
-          
+          **Relevant Courses**: Reinforcement Learning (**top-1 of the course**, 10/10), Deep Learning (10/10), Natural Language Processing (10/10), Big Data (9/10), Software Engineering (9/10)
+
           **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning”
 
           **Grade 10/10, “HSE Scientific Research Challenge 2024” Awardee**
 
-          [GitHub Repository](https://github.com/v-buchkov/deep-hedging), Pip: _pip install deep_hedging_
+          [GitHub Repository](https://github.com/v-buchkov/deep-hedging), Pip: _pip install deep-hedging_
 
-          **GPA 3.90 / 4.0**
+          **GPA 8.9 / 10.0 (with Distinction)**
 
       - layout: top-middle
         title: National Research University Higher School of Economics & University of London
@@ -187,17 +266,129 @@ content:
         quote: >
           International College of Economics and Finance & University of London (under academic direction of London School of Economics) (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
-          **Relevant Courses**: Statistics (10/10), Principles of Banking and Finance (10/10), Programming and Data Processing (9/10)
-          
+          **Relevant Courses**: Statistics (10/10), Probability Theory (9/10), Programming (9/10), Calculus (9/10)
+
           **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”
 
           **Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee**
 
-          **GPA 3.81 / 4.0**
+          **GPA 8.1 / 10.0**
+
+  - title: Open-Source Software # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "Quant-PML: Machine Learning Quant Portfolio Management Library"
+        link: pypi.org/project/quant-pml
+        additional_links:
+          - title: Quant-PML on PyPI
+            icon: fab fa-python
+            url: pypi.org/project/quant-pml
+        caption: January 2025 - Present
+        description: | # this will include new lines to allow paragraphs
+          Python library for ML equity statistical arbitrage development and backtesting, with an sklearn-like API. _pip install quant-pml_
+      - layout: top-middle
+        title: "Deep-Hedging: DL Derivatives Hedging Library under Transaction Costs"
+        link: github.com/v-buchkov/deep-hedging
+        additional_links:
+          - title: Deep-Hedging on GitHub
+            icon: fab fa-github
+            url: github.com/v-buchkov/deep-hedging
+        caption: September 2023 - December 2024
+        description: | # this will include new lines to allow paragraphs
+          Python library for real-data Deep Hedging, including transaction costs and price-taking market impact. _pip install deep-hedging_
+
+  - title: Selected Research Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: PMP UZH — Ensembling Momentum Under Transaction Costs
+        caption: April 2026
+        description: | # this will include new lines to allow paragraphs
+          A data-driven ML approach to ensembling momentum signals into a single confidence-aware strategy.
+      - layout: top-middle
+        title: PMP UZH — Contextual Bandits for Uncertainty-Aware Portfolios
+        caption: March 2026
+        description: | # this will include new lines to allow paragraphs
+          A new approach to factor-portfolio construction implementing a Bayesian-uncertainty no-trade region.
+      - layout: top-middle
+        title: PMP UZH — Volume Shocks and Overnight Returns
+        caption: December 2025 (Grade 6/6)
+        description: | # this will include new lines to allow paragraphs
+          Improvement of Cartea et al. (2025) via volume prediction, based on Goyenko et al. (2024).
+      - layout: top-middle
+        title: DeepAR Distributional Forecasts for H-Step-Ahead Confidence Intervals in a Short-Strangle Option Strategy
+        caption: December 2025 (ETH Deep Learning — Grade 5.5/6)
+        description: | # this will include new lines to allow paragraphs
+          Predicting strangle strikes that yield a target exercise probability.
+      - layout: top-middle
+        title: Inverse RL & Behavioral Cloning for Covariance Shrinkage in Global Minimum Variance Portfolios
+        caption: June 2025 (UZH Quant AM & SI — Grade 6/6)
+        description: | # this will include new lines to allow paragraphs
+          Improved De Nard & Kostovic (2025) with imitation-learning theory (~15% gap to the oracle).
+      - layout: top-middle
+        title: Bayesian LSTM Ensemble for Short-Term Volatility Prediction with Orderbook Features
+        caption: May 2025 (ETH ML for Finance & CS — Grade 6/6)
+        description: | # this will include new lines to allow paragraphs
+          Sigma-LSTM and HAR feature-dependent ensemble weighted by Bayesian uncertainty (daily volatility RMSE improved by 0.85%).
+      - layout: top-middle
+        title: ML-Enhanced Fractional Momentum Selection and Timing
+        caption: May 2025 (PMP UZH Term Paper — Grade 5.5/6)
+        description: | # this will include new lines to allow paragraphs
+          Improvement of Chitsiripanich et al. (2022) via dynamic ML optimization and volatility rebalancing.
+      - layout: top-middle
+        title: High-Dimensional Sparse Additive Lasso and Uncertainty for the Virtue of Complexity
+        caption: January 2025 (PMP UZH)
+        description: | # this will include new lines to allow paragraphs
+          Extension of Kelly et al. (2021) VoC framework with a Gaussian Process and timing by Bayesian uncertainty.
+      - layout: top-middle
+        title: Development of FX Market-Maker Simulator Game
+        link: t.me/FXTraderSimulatorBot
+        additional_links:
+          - title: FX Market-Maker Simulator
+            icon: fab fa-telegram
+            url: t.me/FXTraderSimulatorBot
+        caption: August 2023 (used by 120+ students)
+        description: | # this will include new lines to allow paragraphs
+          Designed and programmed a Python game simulating a market-maker's task of hedging out corporate flow, for the HSE MSc Derivatives course. Order-flow-driven dealer simulator with competing quotes, news and corporate-flow shocks, and inventory risk.
+      - layout: top-middle
+        title: NLP-based MOEX FX Straddle Vega and Gamma Trading Strategy
+        link: github.com/v-buchkov/hse_volatility_project
+        additional_links:
+          - title: NLP Gamma & Vega Trading Strategy
+            icon: fab fa-github
+            url: github.com/v-buchkov/hse_volatility_project
+        caption: June 2023 (Grade 9/10)
+        description: | # this will include new lines to allow paragraphs
+          End-to-end news-sentiment, social-media and research-report classifier predicting the sign of the delta-hedged straddle PnL.
+      - layout: top-middle
+        title: Java Option Pricing Library
+        link: github.com/v-buchkov/options-pricer
+        additional_links:
+          - title: Java Option Pricing Library
+            icon: fab fa-github
+            url: github.com/v-buchkov/options-pricer
+        description: | # this will include new lines to allow paragraphs
+          Pricing library pet-project, driven by analytical solutions of PDEs and Monte Carlo simulations.
 
   - title: Additional Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Summer School in Finance (Investment Management), WU Vienna
+        caption: August 2025 (Vienna, Austria)
+        description: | # this will include new lines to allow paragraphs
+          Grade 1.0 (100%).
+      - layout: left
+        title: SoFiE Summer School in Financial Machine Learning, Yale University
+        caption: July-August 2025 (New Haven, USA)
+        description: | # this will include new lines to allow paragraphs
+          Society for Financial Econometrics summer school in financial machine learning.
+      - layout: left
+        title: AI in Finance Summer School, Nanyang Technological University
+        caption: July 2025 (Singapore)
+        description: | # this will include new lines to allow paragraphs
+          Summer school on applications of artificial intelligence in finance.
       - layout: left
         title: The Experts School of Quants
         caption: 2023-2024 (Moscow, Russia)
@@ -222,84 +413,19 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Equity and Venture Financing Summer School Program**
 
-  - title: Projects # Title for the section
+  - title: Hackathons # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: _Winner of Open Hackaton in Quantitative Finance_ (The Experts School of Quants)
+        title: ETH Probabilistic AI Course — Continuous Reinforcement Learning Competition
+        caption: December 2024
         description: | # this will include new lines to allow paragraphs
-          Market order classification for BUY/SELL vs HOLD via ML&DL, including feature selection
-
+          Rank 4 / 400+ participants — implementing an RL algorithm for the OpenAI Gym Pendulum-v1 environment.
       - layout: top-middle
-        title: Interest Rate Derivatives - Short Rate (Short SDF) Stochastic Simulation
-        link: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
-        # link_text: Project Website
-        additional_links:
-          - title: Short Rate (Short SDF) Stochastic Simulation
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/short_rate_simulation
+        title: Winner — Open Hackathon in Quantitative Finance (The Experts School of Quants)
+        caption: September 2023
         description: | # this will include new lines to allow paragraphs
-          **(Grade 48/50)** Short rate (short SDF) stochastic simulation using Vasicek model, Hull-White model and LSTM NN.
-      
-      - layout: top-middle
-        title: Portfolio Management - Quantitative Investment Strategy Backtesting
-        link: github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
-        # link_text: Project Website
-        additional_links:
-          - title: Quantitative Investment Strategy Backtesting
-            icon: fab fa-github
-            url: github.com/v-buchkov/soq-projects/tree/main/quantitative_strategy_backtest
-        description: | # this will include new lines to allow paragraphs
-          **(Grade 10/10)** Implemented “Flow Toxicity and Liquidity in a High Frequency World” (Lopez de Prado et al., 2010).
-      
-      - layout: top-middle
-        title: Development of FX Market-Maker Simulator Game
-        link: t.me/FXTraderSimulatorBot
-        # link_text: Project Website
-        additional_links:
-          - title: FX Market-Maker Simulator
-            icon: fab fa-telegram
-            url: t.me/FXTraderSimulatorBot
-        description: | # this will include new lines to allow paragraphs
-          Designing and programming game for simulating a market-maker’s task for hedging out corporate flow for HSE MSc Derivatives course.
-      
-      - layout: top-middle
-        title: Natural Language Processing-based MOEX FX Straddle Vega and Gamma Trading Strategy
-        link: github.com/v-buchkov/hse_volatility_project
-        # link_text: Project Website
-        additional_links:
-          - title: NLP Gamma & Vega Trading Strategy
-            icon: fab fa-github
-            url: github.com/v-buchkov/hse_volatility_project
-        description: | # this will include new lines to allow paragraphs
-          **(Grade 9/10)** Modeling of market sentiment in the news, social media and research reports with target to generate consistent prediction of the delta-hedged straddle PnL sign’s classification.
-      
-      - layout: top-middle
-        title: Java Option Pricing Library
-        link: github.com/v-buchkov/options-pricer
-        # link_text: Project Website
-        additional_links:
-          - title: Java Option Pricing Library
-            icon: fab fa-github
-            url: github.com/v-buchkov/options-pricer
-        description: | # this will include new lines to allow paragraphs
-          Pricing library pet-project, driven by analytical solutions of PDE and Monte Carlo simulations.
-      
-      - layout: top-middle
-        title: Python-based Automatization of Russian Metals&Mining Bonds Fundamental Analysis
-        description: | # this will include new lines to allow paragraphs
-          **(Grade 10/10)** Developed algorithmic tool for public credit quality prediction, pricing, search for undervalued bonds.
-
-      - layout: top-middle
-        title: Macroeconomic Research on US Monetary Policy after 2020
-        link: https://www.investing.com/analysis/markets-better-not-lose-their-fed-200523342
-        description: | # this will include new lines to allow paragraphs
-          Article that studies behavioral inefficiencies, which have arisen from the biased monetary policy in US.
-      
-      - layout: top-middle
-        title: Investment Roboadvising Algorithm
-        description: | # this will include new lines to allow paragraphs
-          **(Grade 10/10)** Prototype of an automated advisor that outputs mean-variance optimal portfolio.
+          Market-order classification for BUY/SELL vs HOLD via ML & DL, including feature selection.
 
   - title: Languages
     layout: text
@@ -310,10 +436,10 @@ content:
   - title: Hobbies & Sports
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside with my interests in quantitative finance and machine learning some of my other interests and hobbies are:
-      - Fencing (captain of city’s team at Cup of Russia)
-      - Football (vice-captain of 3 teams in Moscow championships)
-      - Modern Russian literature
+      Alongside my interests in quantitative finance and machine learning, some of my other interests and hobbies are:
+      - Strategic card games (Preferans)
+      - Fencing (national U18 medalist)
+      - Football
       - Game Design
       - Poker
       - Skiing
