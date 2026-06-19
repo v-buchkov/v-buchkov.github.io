@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Viacheslav Buchkov
-title: Quantitative Researcher
+title: Quantitative Researcher · ML for Implementable Portfolios
 email: vbuchkov@ethz.ch
 location: Zurich, Switzerland
 
@@ -51,6 +51,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
+  **Seeking a PhD in ML in Finance, starting Fall 2027 — happy to discuss potential fit.**
+
   MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. Prior work and industry experience span economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
 
   ## Research Interests → ML in Finance:
