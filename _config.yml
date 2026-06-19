@@ -73,7 +73,7 @@ content:
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: /assets/poster.pdf
+            url: https://v-buchkov.github.io/assets/poster.pdf
         sub_title: with Gianluca De Nard & Urban Ulrych
         caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
@@ -89,19 +89,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: "Contributed Talk — RL Covariance Shrinkage (w/ De Nard, Ulrych)"
-        caption: September 2026 (accepted)
+        title: "Contributed Talk — Freddy Delbaen Conference"
+        caption: 7–9 Sep 2026 (accepted)
         description: | # this will include new lines to allow paragraphs
-          Freddy Delbaen Conference ("From Analysis to Mathematical Finance and Insurance"), ETH Zurich, 7–9 Sep 2026.
+          RL covariance shrinkage paper, with De Nard & Ulrych. Freddy Delbaen Conference ("From Analysis to Mathematical Finance and Insurance"), ETH Zurich, 7–9 Sep 2026.
       - layout: top-middle
-        title: "Poster — RL Shrinkage Paper (w/ De Nard, Ulrych)"
+        title: "Poster — 3rd ETH–HK–Imperial Joint Workshop"
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: /assets/poster.pdf
-        caption: June 2026 (accepted)
+            url: https://v-buchkov.github.io/assets/poster.pdf
+        caption: 22–25 Jun 2026 (accepted)
         description: | # this will include new lines to allow paragraphs
-          3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich, 22–25 Jun 2026 (invitation-only; admitted as MSc student).
+          RL covariance shrinkage paper, with De Nard & Ulrych. 3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich, 22–25 Jun 2026 (invitation-only; admitted as MSc student).
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -137,7 +137,7 @@ content:
         caption: 2018-2022
         sub_title: Dual degree BSc in Economics and Finance
         quote: >
-          International College of Economics and Finance & University of London (under academic direction of London School of Economics) (Moscow, Russia)
+          International College of Economics and Finance (Moscow, Russia)
         description: | # this will include new lines to allow paragraphs
           **Relevant Courses**: Statistics (10/10), Probability Theory (9/10), Programming (9/10), Calculus (9/10)
 
@@ -154,7 +154,7 @@ content:
           - title: Course GitHub
             icon: fab fa-github
             url: https://github.com/laktionov/RL-course/tree/2026
-        sub_title: Reinforcement Learning (320 students) — Co-Lecturer & Head TA
+        sub_title: Reinforcement Learning (≈ 320 students) — Co-Lecturer & Head TA
         caption: January 2026 - Present
         description: | # this will include new lines to allow paragraphs
           Co-lecturing Reinforcement Learning (DP, Q-Learning, TRPO/PPO, RL in Finance — 5 of 11 lectures) and leading the teaching-assistant team.
@@ -190,7 +190,7 @@ content:
             url: https://pypi.org/project/quant-pml/
         caption: January 2025 - Present
         description: | # this will include new lines to allow paragraphs
-          Python library for ML equity statistical arbitrage development and backtesting, with an sklearn-like API. _pip install quant-pml_
+          Python library for ML equity statistical arbitrage development and backtesting, with an sklearn-like API. <i class="fab fa-python"></i> `pip install quant-pml`
       - layout: top-middle
         title: "Deep-Hedging: DL Derivatives Hedging Library under Transaction Costs"
         additional_links:
@@ -199,7 +199,7 @@ content:
             url: https://github.com/v-buchkov/deep-hedging
         caption: September 2023 - December 2024
         description: | # this will include new lines to allow paragraphs
-          Python library for real-data Deep Hedging, including transaction costs and price-taking market impact. _pip install deep-hedging_
+          Python library for real-data deep hedging, including transaction costs and price-taking market impact. <i class="fab fa-python"></i> `pip install deep-hedging`
 
   - title: Research Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -210,7 +210,7 @@ content:
           - title: Record (DOI)
             icon: fas fa-file-alt
             url: https://doi.org/10.5281/zenodo.19814691
-        caption: April 2026
+        caption: April 2026 (Grade to be issued June)
         description: | # this will include new lines to allow paragraphs
           A data-driven ML approach to ensembling momentum signals into a single confidence-aware strategy.
       - layout: top-middle
@@ -219,7 +219,7 @@ content:
           - title: Record (DOI)
             icon: fas fa-file-alt
             url: https://doi.org/10.5281/zenodo.19814820
-        caption: March 2026
+        caption: March 2026 (Grade to be issued June)
         description: | # this will include new lines to allow paragraphs
           A new approach to factor-portfolio construction implementing a Bayesian-uncertainty no-trade region.
       - layout: top-middle
@@ -248,7 +248,7 @@ content:
             url: https://github.com/ashnvael/qamsi
         caption: June 2025 (UZH Quant AM & SI — Grade 6/6)
         description: | # this will include new lines to allow paragraphs
-          Improved De Nard & Kostovic (2025) with imitation-learning theory (~15% gap to the oracle).
+          Improved De Nard & Kostovic policy learning method with Imitation Learning theory (~15% gap to the oracle).
       - layout: top-middle
         title: Bayesian LSTM Ensemble for Short-Term Volatility Prediction with Orderbook Features
         additional_links:
@@ -257,7 +257,7 @@ content:
             url: https://github.com/v-buchkov/mlfcs
         caption: May 2025 (ETH ML for Finance & CS — Grade 6/6)
         description: | # this will include new lines to allow paragraphs
-          Sigma-LSTM and HAR feature-dependent ensemble weighted by Bayesian uncertainty (daily volatility RMSE improved by 0.85%).
+          Sigma-LSTM and HAR feature-dependent ensemble weighted by Bayesian uncertainty to detect regime switches (daily volatility RMSE improved by 0.85%).
       - layout: top-middle
         title: ML-Enhanced Fractional Momentum Selection and Timing
         additional_links:
@@ -348,37 +348,31 @@ content:
             * Oversaw and led Russian Government Bonds algorithmic market-making
             * Was responsible for client coverage and fixed income flow on 70+ clients
             * Provided coverage for investors on 30+ primary bonds issues & 1 IPO
-            * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China — mostly via cold outreach)
+            * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China)
       - layout: top-middle
         sub_title: Intern, Institutional Fixed Income, Sales&Trading
         caption: August 2020 - February 2021
         quote: >
           (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            Fixed Income and REPO execution for 50+ brokerage clients; built a Python tool for non-screen term REPO pricing, later used in brokerage execution.
       - layout: top-middle
         title: AriCapital Asset Management
         sub_title: Intern, Fixed Income & Equity Research
         caption: September 2019 - June 2020
         quote: >
           (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            Fixed income and equity research: fundamental analysis of debt and equity instruments with investment ideas in offshore-drilling credits, alongside daily market commentary.
       - layout: top-middle
         title: Rosbank, Société Générale Group
         sub_title: Intern, Research, Capital Markets & Investment Banking Department
         caption: July 2019 - August 2019
         quote: >
           (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            Top-down fundamental analysis of the Russian Metals & Mining sector, with debt and equity investment ideas.
 
   - title: Additional Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Summer School in Finance (Investment Management), WU Vienna
-        caption: August 2025 (Vienna, Austria)
+        caption: August 2025 (Vienna, Austria) · Grade 1.0 (100%)
       - layout: left
         title: SoFiE Summer School in Financial Machine Learning, Yale University
         caption: July-August 2025 (New Haven, USA)
@@ -407,7 +401,7 @@ content:
         title: Bocconi University
         caption: Summer 2019 (Milan, Italy)
         description: | # this will include new lines to allow paragraphs
-          **Equity and Venture Financing Summer School Program**
+          **Equity and Venture Financing Summer School Program** — Grade 29/30
 
   - title: Hackathons # Title for the section
     layout: list # Type of content section (list/text)
@@ -441,7 +435,7 @@ content:
       - Skiing
 
       <div style="text-align: center;">
-        <h2>Thanks for your attention!</h2>
+        <h1 style="font-size: 2.4em; font-weight: 800;">Thanks for your attention!</h1>
         <img src="images/trophy.jpg" alt="Trophy" style="max-width: 100%; border-radius: 8px;" />
       </div>
 
