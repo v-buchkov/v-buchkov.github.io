@@ -56,10 +56,10 @@ about_content: | # this will include new lines to allow paragraphs
   MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. Prior work and industry experience span economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
 
   ## Research Interests → ML in Finance:
-  - Decision-making under low signal-to-noise
-  - Bayesian DL for uncertainty quantification
-  - Regime-dependent dynamics
-  - Reinforcement learning / contextual bandits / online learning
+  - Regime-dependent decision-making under low SNR
+  - Bayesian ML / uncertainty quantification
+  - Reinforcement learning / contextual bandits
+  - High-dimensional asset pricing
   - Off-policy / counterfactual strategy evaluation
   - Statistical arbitrage
 
