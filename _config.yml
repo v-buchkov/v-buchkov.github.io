@@ -31,9 +31,6 @@ github_username:  v-buchkov
 
 # Additional icon links
 additional_links:
-- title: Email
-  icon: fas fa-globe
-  url: mailto:vbuchkov@ethz.ch
 - title: PyPI
   icon: fab fa-python
   url: https://pypi.org/user/v-buchkov/
@@ -56,39 +53,41 @@ about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. Prior work and industry experience span economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
 
-  ## Research Interests:
-  - ML/RL for high-dimensional portfolio construction
+  ## Research Interests → ML in Finance:
   - Decision-making under low signal-to-noise
-  - Economic-loss covariance estimation
-  - Cost-aware portfolio construction
+  - Bayesian DL for uncertainty quantification
+  - Regime-dependent dynamics
+  - Reinforcement learning / contextual bandits / online learning
+  - Off-policy / counterfactual strategy evaluation
   - Statistical arbitrage
-  - Volatility forecasting
-  - Deep hedging
 
   ## Programming Skills:
-  <mark>Python</mark> (PyTorch, JAX, Flax, polars, gymnasium, hf-transformers), <mark>MATLAB</mark>, <mark>Java</mark>, <mark>C++</mark>, <mark>R</mark>, <mark>Golang</mark>, <mark>SQL</mark>.
+  <mark>Python</mark>, <mark>MATLAB</mark>, <mark>Java</mark>, <mark>C++</mark>, <mark>R</mark>, <mark>Golang</mark>, <mark>SQL</mark>.
 
 content:
-  - title: Research # Title for the section
+  - title: Working Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: "Working Paper: Shrinkage Estimation of Covariance Matrices — Economic Loss Minimization with Reinforcement Learning"
-        link: assets/poster.pdf
+        title: "Shrinkage Estimation of Covariance Matrices: Economic Loss Minimization with Reinforcement Learning"
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: assets/poster.pdf
+            url: /assets/poster.pdf
         sub_title: with Gianluca De Nard & Urban Ulrych
-        caption: 2026 — In preparation for submission to International Journal of Forecasting
+        caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
           Learns a regime-dependent shrinkage intensity that directly minimizes an economic loss — out-of-sample portfolio risk — rather than a statistical surrogate, via VAR contextual bandits over RFF-encoded market states. The estimator is Bayes-optimal with respect to the observed features and reduces the regret (gap to the oracle) relative to policy learning: around one-third for linear shrinkage and 9–40% for non-linear shrinkage across asset universes.
       - layout: top-middle
-        title: "Working Paper: Strategy-Agnostic Cost-Aware Position Smoothing via Contextual Bandits"
+        title: "Strategy-Agnostic Cost-Aware Position Smoothing via Contextual Bandits"
         sub_title: with Urban Ulrych
         caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
           Learns the expected return vs turnover trade-off via FPCA-encoded reward contextual bandits, applied to a convex optimization layer for exogenous weights. Improves gross-to-turnover ratio by 30–80 bps.
+
+  - title: Talks & Conferences # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: top-middle
         title: "Contributed Talk — RL Covariance Shrinkage (w/ De Nard, Ulrych)"
         caption: September 2026 (accepted)
@@ -96,135 +95,13 @@ content:
           Freddy Delbaen Conference ("From Analysis to Mathematical Finance and Insurance"), ETH Zurich, 7–9 Sep 2026.
       - layout: top-middle
         title: "Poster — RL Shrinkage Paper (w/ De Nard, Ulrych)"
-        link: assets/poster.pdf
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: assets/poster.pdf
+            url: /assets/poster.pdf
         caption: June 2026 (accepted)
         description: | # this will include new lines to allow paragraphs
           3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich, 22–25 Jun 2026 (invitation-only; admitted as MSc student).
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Raiffeisenbank JSC, Raiffeisen Bank International Group
-        link: raiffeisen.ru
-        # link_text: boringcompany.com
-        sub_title: SVP & Product Owner, Quantitative Investment Strategies
-        caption: November 2025 - Present
-        quote: >
-          (Moscow, Russia - remote from Zurich since Aug 2024)
-        description: | # this will include new lines to allow paragraphs
-            Leading a 9-person QR team running 12 strategies with $815M AUM:
-            * FX Futures / Perps Stat Arb: OU parameters via DL state-space model; live as a cost-aware EWMA policy
-            * ML Multi-Signal Factor Strategies on Shanghai, Shenzhen and RU Exchanges (3 strategies, $100M+ AUM)
-            * Academic Beta Factors cost-aware replication via Reinforcement Learning ($60M+ AUM)
-            * RUB interest-rate ML beta strategies: yield-curve-shape prediction for a government-bond portfolio ($90M+ AUM)
-            * Factor decomposition of financial and non-financial (real estate, salary) cash flow — RoboAdvisory
-            * Factor-regression attribution layer with a Mistral LLM for strategy explanation in a client-facing AM app
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Vice President, Quantitative Investment Strategies
-        caption: November 2024 - October 2025
-        quote: >
-          (Moscow, Russia - remote from Zurich)
-        description: | # this will include new lines to allow paragraphs
-            * Led ML-driven factor investing & smart beta in equity and fixed income, beta-factor index replication via RL and factor RoboAdvisory
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Senior Officer, Quantitative Investment Strategies
-        caption: July 2023 - October 2024
-        quote: >
-          (Moscow, Russia - remote work)
-        description: | # this will include new lines to allow paragraphs
-            * Successfully introduced 4 Fixed Income / 2 Equity Quantitative Strategies with AUM of $97+ mio
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Product Manager, Prime Brokerage & Investment Products
-        caption: April 2022 - June 2023
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            * Owned and led the engineering, product development and monetization of Corporate Clients Investments platform with total daily volume of $782.89 mio
-            * Supervised Institutional Brokerage Software Engineering team of 22 engineers
-            * Designed architecture of prime brokerage services, planning roadmap and prioritizing initiatives
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Quantitative Analyst, Structured Products
-        caption: August 2021 - March 2022
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            * Discovered and implemented over 20 tailor-made investment ideas in equity & credit products, including volatility and correlation-based strategies
-            * Researched statistical arbitrage strategies for offshore versus onshore volatility and MOEX FX options correlation trade in EURRUB & USDRUB
-            * Developed pricing, delta-hedging, greeks & RWA calculation for linear strategies
-            * Engineered Monte Carlo Simulation & Pricing Tool for exotic structured products
-            * Designed products continuous valuation and lifecycle management MVP
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Junior Sales Trader, Institutional Fixed Income, Sales&Trading
-        caption: March 2021 - July 2021
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            * Oversaw and led Russian Government Bonds algorithmic market-making
-            * Was responsible for client coverage and fixed income flow on 70+ clients
-            * Provided coverage for investors on 30+ primary bonds issues & 1 IPO
-            * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China — mostly via cold outreach)
-      - layout: top-middle
-        # link_text: boringcompany.com
-        sub_title: Intern, Institutional Fixed Income, Sales&Trading
-        caption: August 2020 - February 2021
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            * Specialized in Fixed Income and REPO execution for over 50 brokerage clients with constant order flow
-            * Created Python algorithm for non-screen term REPO pricing, further implemented for brokerage execution
-      - layout: top-middle
-        title: AriCapital Asset Management
-        link: aricapital.ru
-        # link_text: boringcompany.com
-        sub_title: Intern, Fixed Income & Equity Research
-        caption: September 2019 - June 2020
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            * Published 36 articles on the daily news of financial markets, analyzing the impact on prices of instruments
-            * Completed fundamental analysis of equity and debt instruments of the largest international oﬀshore drilling companies with two investment ideas in debt instruments
-      - layout: top-middle
-        title: Rosbank, Société Générale Group
-        link: rosbank.ru
-        # link_text: boringcompany.com
-        sub_title: Intern, Research, Capital Markets & Investment Banking Department
-        caption: July 2019 - August 2019
-        quote: >
-          (Moscow, Russia)
-        description: | # this will include new lines to allow paragraphs
-            Completed fundamental top-down analysis of the Russian Metals&Mining sector with two investment ideas in debt instruments and two ideas in equity
-
-  - title: Teaching & Research Affiliations # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: National Research University Higher School of Economics — Faculty of Computer Science
-        sub_title: Reinforcement Learning (320 students) — Co-Lecturer & Head TA
-        caption: January 2026 - Present
-        description: | # this will include new lines to allow paragraphs
-          Co-lecturing Reinforcement Learning (DP, Q-Learning, TRPO/PPO, RL in Finance — 5 of 11 lectures) and leading the teaching-assistant team.
-      - layout: top-middle
-        title: University of Zurich Portfolio Management Program — Qube RT Team
-        caption: September 2024 - May 2026 (Zurich)
-        description: | # this will include new lines to allow paragraphs
-          Highly selective 2-year hands-on research program (18 / 100+ admitted to the program, 7 graduated); bi-weekly research meetings at QRT's Zurich office; presented research every 3 weeks to a UBS / QRT / UZH audience.
-
-          Year 2: implemented a live deployment of equity beta-hedged statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team, with selected results (net Sharpe ratio):
-
-          - Volume Shocks & Overnight Returns (6/6): backtest 1.05, live in progress (intraday data)
-          - ML Fractional Momentum Selection & Timing (5.5/6): backtest 1.04, live 0.73
-          - Ensembling Momentum Under Transaction Costs: backtest 0.86, live in progress
-          - Contextual Bandits for Uncertainty-Aware Allocation: backtest 0.61, live 0.42
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -236,8 +113,6 @@ content:
         quote: >
           Master of Science UZH ETH in Quantitative Finance (Zurich, Switzerland)
         description: | # this will include new lines to allow paragraphs
-          The specialized Master program “Master of Science UZH ETH in Quantitative Finance” (MScQF) is offered jointly by the University of Zurich and ETH Zurich, by the Department of Mathematics and the Faculty of Business, Economics and Informatics.
-
           **Relevant courses**: High-Dimensional Statistics with Prof. Bühlmann (6/6), Probabilistic AI with Prof. Krause (5.75/6), ML in Finance & Complex Systems (5.5/6), Quant AM and Systematic Investments (6/6), Quant PM with Python (6/6), Investments Quant Tools (6/6), AM: Advanced Investments (5.75/6)
 
           **Expected GPA 5.6 / 6.0**
@@ -251,11 +126,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Relevant Courses**: Reinforcement Learning (**top-1 of the course**, 10/10), Deep Learning (10/10), Natural Language Processing (10/10), Big Data (9/10), Software Engineering (9/10)
 
-          **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning”
+          **Thesis**: “Hedging Derivatives Under Incomplete Markets with Deep Learning” — **Grade 10/10, “HSE Scientific Research Challenge 2024” Awardee**
 
-          **Grade 10/10, “HSE Scientific Research Challenge 2024” Awardee**
-
-          [GitHub Repository](https://github.com/v-buchkov/deep-hedging), Pip: _pip install deep-hedging_
+          **Code**: <i class="fab fa-github"></i> [v-buchkov/deep-hedging](https://github.com/v-buchkov/deep-hedging) &nbsp;·&nbsp; <i class="fab fa-python"></i> `pip install deep-hedging`
 
           **GPA 8.9 / 10.0 (with Distinction)**
 
@@ -268,108 +141,237 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Relevant Courses**: Statistics (10/10), Probability Theory (9/10), Programming (9/10), Calculus (9/10)
 
-          **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products”
-
-          **Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee**
+          **Thesis**: “Expected Performance Optimization of Fixed Income Portfolio via Structured Products” — **Grade 10/10, "Best Thesis of Class 2022”, “HSE Scientific Research Challenge 2022” Awardee**
 
           **GPA 8.1 / 10.0**
+
+  - title: Teaching Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: National Research University Higher School of Economics — Faculty of Computer Science
+        additional_links:
+          - title: Course GitHub
+            icon: fab fa-github
+            url: https://github.com/laktionov/RL-course/tree/2026
+        sub_title: Reinforcement Learning (320 students) — Co-Lecturer & Head TA
+        caption: January 2026 - Present
+        description: | # this will include new lines to allow paragraphs
+          Co-lecturing Reinforcement Learning (DP, Q-Learning, TRPO/PPO, RL in Finance — 5 of 11 lectures) and leading the teaching-assistant team.
+
+  - title: Research Affiliations # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: University of Zurich Portfolio Management Program — Qube RT Team
+        additional_links:
+          - title: Program
+            icon: fas fa-globe
+            url: https://www.cpm.uzh.ch/en.html
+        caption: September 2024 - May 2026 (Zurich)
+        description: | # this will include new lines to allow paragraphs
+          Highly selective 2-year hands-on research program (18 / 100+ admitted to the program, 7 graduated); bi-weekly research meetings at QRT's Zurich office; presented research every 3 weeks to a UBS / QRT / UZH audience.
+
+          Year 2: implemented a live deployment of equity beta-hedged statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team, with selected results (net Sharpe ratio):
+
+          - Volume Shocks & Overnight Returns (6/6): backtest 1.05, live in progress (intraday data)
+          - ML Fractional Momentum Selection & Timing (5.5/6): backtest 1.04, live 0.73
+          - Ensembling Momentum Under Transaction Costs: backtest 0.86, live in progress
+          - Contextual Bandits for Uncertainty-Aware Allocation: backtest 0.61, live 0.42
 
   - title: Open-Source Software # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: "Quant-PML: Machine Learning Quant Portfolio Management Library"
-        link: pypi.org/project/quant-pml
         additional_links:
           - title: Quant-PML on PyPI
             icon: fab fa-python
-            url: pypi.org/project/quant-pml
+            url: https://pypi.org/project/quant-pml/
         caption: January 2025 - Present
         description: | # this will include new lines to allow paragraphs
           Python library for ML equity statistical arbitrage development and backtesting, with an sklearn-like API. _pip install quant-pml_
       - layout: top-middle
         title: "Deep-Hedging: DL Derivatives Hedging Library under Transaction Costs"
-        link: github.com/v-buchkov/deep-hedging
         additional_links:
           - title: Deep-Hedging on GitHub
             icon: fab fa-github
-            url: github.com/v-buchkov/deep-hedging
+            url: https://github.com/v-buchkov/deep-hedging
         caption: September 2023 - December 2024
         description: | # this will include new lines to allow paragraphs
           Python library for real-data Deep Hedging, including transaction costs and price-taking market impact. _pip install deep-hedging_
 
-  - title: Selected Research Projects # Title for the section
+  - title: Research Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: PMP UZH — Ensembling Momentum Under Transaction Costs
+        additional_links:
+          - title: Record (DOI)
+            icon: fas fa-file-alt
+            url: https://doi.org/10.5281/zenodo.19814691
         caption: April 2026
         description: | # this will include new lines to allow paragraphs
           A data-driven ML approach to ensembling momentum signals into a single confidence-aware strategy.
       - layout: top-middle
         title: PMP UZH — Contextual Bandits for Uncertainty-Aware Portfolios
+        additional_links:
+          - title: Record (DOI)
+            icon: fas fa-file-alt
+            url: https://doi.org/10.5281/zenodo.19814820
         caption: March 2026
         description: | # this will include new lines to allow paragraphs
           A new approach to factor-portfolio construction implementing a Bayesian-uncertainty no-trade region.
       - layout: top-middle
         title: PMP UZH — Volume Shocks and Overnight Returns
+        additional_links:
+          - title: Record (DOI)
+            icon: fas fa-file-alt
+            url: https://doi.org/10.5281/zenodo.19814750
         caption: December 2025 (Grade 6/6)
         description: | # this will include new lines to allow paragraphs
           Improvement of Cartea et al. (2025) via volume prediction, based on Goyenko et al. (2024).
       - layout: top-middle
         title: DeepAR Distributional Forecasts for H-Step-Ahead Confidence Intervals in a Short-Strangle Option Strategy
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/v-buchkov/eth-dl-project
         caption: December 2025 (ETH Deep Learning — Grade 5.5/6)
         description: | # this will include new lines to allow paragraphs
           Predicting strangle strikes that yield a target exercise probability.
       - layout: top-middle
         title: Inverse RL & Behavioral Cloning for Covariance Shrinkage in Global Minimum Variance Portfolios
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/ashnvael/qamsi
         caption: June 2025 (UZH Quant AM & SI — Grade 6/6)
         description: | # this will include new lines to allow paragraphs
           Improved De Nard & Kostovic (2025) with imitation-learning theory (~15% gap to the oracle).
       - layout: top-middle
         title: Bayesian LSTM Ensemble for Short-Term Volatility Prediction with Orderbook Features
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/v-buchkov/mlfcs
         caption: May 2025 (ETH ML for Finance & CS — Grade 6/6)
         description: | # this will include new lines to allow paragraphs
           Sigma-LSTM and HAR feature-dependent ensemble weighted by Bayesian uncertainty (daily volatility RMSE improved by 0.85%).
       - layout: top-middle
         title: ML-Enhanced Fractional Momentum Selection and Timing
+        additional_links:
+          - title: Record (DOI)
+            icon: fas fa-file-alt
+            url: https://doi.org/10.5281/zenodo.19814857
         caption: May 2025 (PMP UZH Term Paper — Grade 5.5/6)
         description: | # this will include new lines to allow paragraphs
           Improvement of Chitsiripanich et al. (2022) via dynamic ML optimization and volatility rebalancing.
       - layout: top-middle
         title: High-Dimensional Sparse Additive Lasso and Uncertainty for the Virtue of Complexity
+        additional_links:
+          - title: Record (DOI)
+            icon: fas fa-file-alt
+            url: https://doi.org/10.5281/zenodo.19814884
         caption: January 2025 (PMP UZH)
         description: | # this will include new lines to allow paragraphs
           Extension of Kelly et al. (2021) VoC framework with a Gaussian Process and timing by Bayesian uncertainty.
       - layout: top-middle
         title: Development of FX Market-Maker Simulator Game
-        link: t.me/FXTraderSimulatorBot
         additional_links:
           - title: FX Market-Maker Simulator
             icon: fab fa-telegram
-            url: t.me/FXTraderSimulatorBot
+            url: https://t.me/FXTraderSimulatorBot
         caption: August 2023 (used by 120+ students)
         description: | # this will include new lines to allow paragraphs
           Designed and programmed a Python game simulating a market-maker's task of hedging out corporate flow, for the HSE MSc Derivatives course. Order-flow-driven dealer simulator with competing quotes, news and corporate-flow shocks, and inventory risk.
       - layout: top-middle
         title: NLP-based MOEX FX Straddle Vega and Gamma Trading Strategy
-        link: github.com/v-buchkov/hse_volatility_project
         additional_links:
-          - title: NLP Gamma & Vega Trading Strategy
+          - title: GitHub
             icon: fab fa-github
-            url: github.com/v-buchkov/hse_volatility_project
+            url: https://github.com/v-buchkov/hse_volatility_project
         caption: June 2023 (Grade 9/10)
         description: | # this will include new lines to allow paragraphs
           End-to-end news-sentiment, social-media and research-report classifier predicting the sign of the delta-hedged straddle PnL.
       - layout: top-middle
         title: Java Option Pricing Library
-        link: github.com/v-buchkov/options-pricer
         additional_links:
-          - title: Java Option Pricing Library
+          - title: GitHub
             icon: fab fa-github
-            url: github.com/v-buchkov/options-pricer
+            url: https://github.com/v-buchkov/options-pricer/
         description: | # this will include new lines to allow paragraphs
           Pricing library pet-project, driven by analytical solutions of PDEs and Monte Carlo simulations.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Raiffeisenbank JSC, Raiffeisen Bank International Group
+        link: raiffeisen.ru
+        sub_title: "Quantitative Investment Strategies — SVP & Product Owner (Nov 2025–), VP (Nov 2024–Oct 2025), Senior Officer (Jul 2023–Oct 2024)"
+        caption: July 2023 - Present
+        quote: >
+          (Moscow, Russia - remote from Zurich since Aug 2024)
+        description: | # this will include new lines to allow paragraphs
+            Leading a 9-person QR team running 12 strategies with $815M AUM:
+            * FX Futures / Perps Stat Arb: OU parameters via DL state-space model; live as a cost-aware EWMA policy
+            * ML Multi-Signal Factor Strategies on Shanghai, Shenzhen and RU Exchanges (3 strategies, $100M+ AUM)
+            * Academic Beta Factors cost-aware replication via Reinforcement Learning ($60M+ AUM)
+            * RUB interest-rate ML beta strategies: yield-curve-shape prediction for a government-bond portfolio ($90M+ AUM)
+            * Factor decomposition of financial and non-financial (real estate, salary) cash flow — RoboAdvisory
+            * Factor-regression attribution layer with a Mistral LLM for strategy explanation in a client-facing AM app
+      - layout: top-middle
+        sub_title: Product Manager, Prime Brokerage & Investment Products
+        caption: April 2022 - June 2023
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            * Owned and led the engineering, product development and monetization of Corporate Clients Investments platform with total daily volume of $782.89 mio
+            * Supervised Institutional Brokerage Software Engineering team of 22 engineers
+      - layout: top-middle
+        sub_title: Quantitative Analyst, Structured Products
+        caption: August 2021 - March 2022
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            * Discovered and implemented over 20 tailor-made investment ideas in equity & credit products, including volatility and correlation-based strategies
+            * Researched statistical arbitrage strategies for offshore versus onshore volatility and MOEX FX options correlation trade in EURRUB & USDRUB
+            * Developed pricing, delta-hedging, greeks & RWA calculation for linear strategies
+            * Engineered Monte Carlo Simulation & Pricing Tool for exotic structured products
+      - layout: top-middle
+        sub_title: Junior Sales Trader, Institutional Fixed Income, Sales&Trading
+        caption: March 2021 - July 2021
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            * Oversaw and led Russian Government Bonds algorithmic market-making
+            * Was responsible for client coverage and fixed income flow on 70+ clients
+            * Provided coverage for investors on 30+ primary bonds issues & 1 IPO
+            * Developed wide network of electronic price sources (brought 26 new market-makers in Bloomberg ALLQ, MarketAxess and BondLink China — mostly via cold outreach)
+      - layout: top-middle
+        sub_title: Intern, Institutional Fixed Income, Sales&Trading
+        caption: August 2020 - February 2021
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            Fixed Income and REPO execution for 50+ brokerage clients; built a Python tool for non-screen term REPO pricing, later used in brokerage execution.
+      - layout: top-middle
+        title: AriCapital Asset Management
+        sub_title: Intern, Fixed Income & Equity Research
+        caption: September 2019 - June 2020
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            Fixed income and equity research: fundamental analysis of debt and equity instruments with investment ideas in offshore-drilling credits, alongside daily market commentary.
+      - layout: top-middle
+        title: Rosbank, Société Générale Group
+        sub_title: Intern, Research, Capital Markets & Investment Banking Department
+        caption: July 2019 - August 2019
+        quote: >
+          (Moscow, Russia)
+        description: | # this will include new lines to allow paragraphs
+            Top-down fundamental analysis of the Russian Metals & Mining sector, with debt and equity investment ideas.
 
   - title: Additional Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -377,18 +379,12 @@ content:
       - layout: left
         title: Summer School in Finance (Investment Management), WU Vienna
         caption: August 2025 (Vienna, Austria)
-        description: | # this will include new lines to allow paragraphs
-          Grade 1.0 (100%).
       - layout: left
         title: SoFiE Summer School in Financial Machine Learning, Yale University
         caption: July-August 2025 (New Haven, USA)
-        description: | # this will include new lines to allow paragraphs
-          Society for Financial Econometrics summer school in financial machine learning.
       - layout: left
         title: AI in Finance Summer School, Nanyang Technological University
         caption: July 2025 (Singapore)
-        description: | # this will include new lines to allow paragraphs
-          Summer school on applications of artificial intelligence in finance.
       - layout: left
         title: The Experts School of Quants
         caption: 2023-2024 (Moscow, Russia)
@@ -438,15 +434,16 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in quantitative finance and machine learning, some of my other interests and hobbies are:
       - Strategic card games (Preferans)
-      - Fencing (national U18 medalist)
-      - Football
+      - Fencing — national & international U18 medalist; captain of the state team
+      - Football — professional U16 medalist; vice-captain of several amateur-league teams
       - Game Design
       - Poker
       - Skiing
 
-      # Thanks for your attention!
-
-      ![Trophy](images/trophy.jpg "Trophy")
+      <div style="text-align: center;">
+        <h2>Thanks for your attention!</h2>
+        <img src="images/trophy.jpg" alt="Trophy" style="max-width: 100%; border-radius: 8px;" />
+      </div>
 
 # Footer
 footer_show_references: false
