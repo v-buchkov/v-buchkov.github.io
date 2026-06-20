@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Viacheslav Buchkov
-title: Quant Researcher · ML for Implementable Portfolios
+title: Economics-Driven ML for Implementable Strategies
 email: vbuchkov@ethz.ch
 location: Zurich, Switzerland
 
@@ -53,18 +53,27 @@ about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   **Seeking a PhD in ML in Finance, starting Fall 2027 — happy to discuss potential fit.**
 
-  MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. Prior work and industry experience span economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
+  MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. The core of my current work is to ask the economic question first to identify the inductive biases, then let them reshape the objective, architecture, estimation, and backtest. Prior work spans economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
 
-  ## Research Interests → ML in Finance:
+  ## Research Interests
+  *Recovering implementable strategies from theoretical ones — estimation and decision-making under low signal-to-noise.*
+
+  **Portfolio construction & asset pricing**
   - Regime-dependent decision-making under low SNR
-  - Bayesian ML / uncertainty quantification
-  - Reinforcement learning / contextual bandits
-  - High-dimensional asset pricing
+  - Covariance estimation via economic-loss minimization
+  - Uncertainty-aware allocation and high-dimensional asset pricing
   - Off-policy / counterfactual strategy evaluation
-  - Statistical arbitrage
+
+  **Microstructure, costs & execution**
+  - Cost-aware position smoothing
+  - Price impact and the theoretical-to-implementable gap
+  - Signal combination in statistical arbitrage
+  - Order-flow / volume dynamics
+
+  *Methods: optimal control, reinforcement learning, contextual bandits, Bayesian ML / uncertainty quantification.*
 
   ## Current Industry Position:
-  Senior Vice-President, Quantitative Investment Strategies, Raiffeisenbank JSC
+  Senior Vice-President, Quantitative Investment Strategies, Raiffeisenbank JSC ($815M AUM across 12 strategies, ML Factor + Futures Stat Arb)
 
   ## Programming Skills:
   <mark>Python</mark>, <mark>MATLAB</mark>, <mark>Java</mark>, <mark>C++</mark>, <mark>R</mark>, <mark>Golang</mark>, <mark>SQL</mark>.
