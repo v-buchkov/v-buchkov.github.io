@@ -59,7 +59,6 @@ about_content: | # this will include new lines to allow paragraphs
   Double MSc: Quantitative Finance at ETH Zürich / UZH (D-MATH & Dept. of Finance) + Applied Mathematics (HSE Moscow). Researching decision-making under uncertainty and market frictions in low SNR — transaction costs, forecast uncertainty, price impact, estimation error, and regime dynamics — to recover implementable strategies from theoretical ones. The core of my work is to ask the economic question first to identify the inductive biases, then let them reshape the objective, architecture, estimation, and backtest. Working papers on economic-loss covariance shrinkage and cost-aware trading; prior research and industry experience span covariance estimation, frictions, optimal execution, statistical arbitrage, volatility forecasts, and deep hedging.
 
   ## Research Interests
-  *Recovering implementable strategies from theoretical ones — estimation and decision-making under low signal-to-noise.*
 
   **Portfolio construction & asset pricing**
   - Regime-dependent decision-making under low SNR
@@ -78,7 +77,7 @@ about_content: | # this will include new lines to allow paragraphs
   ## Current Industry Position
   Senior Vice-President, Quantitative Investment Strategies, Raiffeisenbank JSC ($815M AUM across 12 strategies, ML Factor + Futures Stat Arb)
 
-  ## Programming Skills:
+  ## Programming Skills
   <mark>Python</mark>, <mark>MATLAB</mark>, <mark>Java</mark>, <mark>C++</mark>, <mark>R</mark>, <mark>Golang</mark>, <mark>SQL</mark>.
 
 content:
