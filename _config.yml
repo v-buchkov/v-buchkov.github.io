@@ -75,7 +75,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   *Methods: optimal control, reinforcement learning, contextual bandits, Bayesian ML / uncertainty quantification.*
 
-  ## Current Industry Position:
+  ## Current Industry Position
   Senior Vice-President, Quantitative Investment Strategies, Raiffeisenbank JSC ($815M AUM across 12 strategies, ML Factor + Futures Stat Arb)
 
   ## Programming Skills:
@@ -90,7 +90,7 @@ content:
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: https://v-buchkov.github.io/assets/poster.pdf
+            url: https://v-buchkov.github.io/assets/Shrinkage_Estimation_of_Covariance_Matrices_Poster.pdf
         sub_title: with Gianluca De Nard & Urban Ulrych
         caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
@@ -115,10 +115,10 @@ content:
         additional_links:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
-            url: https://v-buchkov.github.io/assets/poster.pdf
-        caption: 22–25 Jun 2026 (accepted)
+            url: https://v-buchkov.github.io/assets/Shrinkage_Estimation_of_Covariance_Matrices_Poster.pdf
+        caption: 22–25 Jun 2026
         description: | # this will include new lines to allow paragraphs
-          RL covariance shrinkage paper, with De Nard & Ulrych. 3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich, 22–25 Jun 2026 (invitation-only; admitted as MSc student).
+          RL covariance shrinkage paper, with De Nard & Ulrych. 3rd ETH–HK–Imperial Joint Workshop on Quantitative Finance, ETH Zurich (invitation-only, PhD & Faculty; admitted as MSc student).
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -132,7 +132,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           **Relevant courses**: High-Dimensional Statistics with Prof. Bühlmann (6/6), Probabilistic AI with Prof. Krause (5.75/6), ML in Finance & Complex Systems (5.5/6), Quant AM and Systematic Investments (6/6), Quant PM with Python (6/6), Investments Quant Tools (6/6), AM: Advanced Investments (5.75/6)
 
-          **Audited (no exam)**: BM & Stochastic Calculus, Theoretical Foundations of RL, Applied Stochastic Processes
+          **Audited (no exam)**: Brownian Motion & Stochastic Calculus, Theoretical Foundations of Reinforcement Learning, Applied Stochastic Processes
 
           **Selected courses next semester**: Mathematical Foundations for Finance, Dynamic Programming & Optimal Control, Advanced ML, Deep Learning, Time Series Analysis, Reinforcement Learning
 
@@ -233,7 +233,7 @@ content:
           - title: Record (DOI)
             icon: fas fa-file-alt
             url: https://doi.org/10.5281/zenodo.19814691
-        caption: April 2026 (Grade to be issued in June)
+        caption: April 2026 (Grade to be issued in July)
         description: | # this will include new lines to allow paragraphs
           A data-driven ML approach to ensembling momentum signals into a single confidence-aware strategy.
       - layout: top-middle
@@ -242,7 +242,7 @@ content:
           - title: Record (DOI)
             icon: fas fa-file-alt
             url: https://doi.org/10.5281/zenodo.19814820
-        caption: March 2026 (Grade to be issued in June)
+        caption: March 2026 (Grade to be issued in July)
         description: | # this will include new lines to allow paragraphs
           A new approach to factor-portfolio construction implementing a Bayesian-uncertainty no-trade region.
       - layout: top-middle
