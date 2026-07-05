@@ -31,6 +31,9 @@ github_username:  v-buchkov
 
 # Additional icon links
 additional_links:
+# - title: CV (PDF)
+#   icon: fas fa-file-pdf
+#   url: https://v-buchkov.github.io/assets/BUCHKOV_Viacheslav.pdf
 - title: PyPI
   icon: fab fa-python
   url: https://pypi.org/user/v-buchkov/
@@ -51,9 +54,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **Seeking a PhD in ML in Finance, starting Fall 2027 — happy to discuss potential fit.**
+  **Seeking a PhD in ML in Finance, starting Fall 2027 — forecast uncertainty, frictions, regime dynamics, and execution. Happy to discuss potential fit.**
 
-  MSc Quantitative Finance at ETH Zürich / UZH, researching ML/RL for high-dimensional portfolio construction as decision-making under low signal-to-noise — framing transaction costs, predictor uncertainty, and regime-dependent dynamics as the problem of recovering the implementable strategy from a theoretical one. The core of my current work is to ask the economic question first to identify the inductive biases, then let them reshape the objective, architecture, estimation, and backtest. Prior work spans economic-loss covariance estimation, cost-aware portfolio construction, statistical arbitrage, volatility forecasting, and deep hedging.
+  Double MSc: Quantitative Finance at ETH Zürich / UZH (D-MATH & Dept. of Finance) + Applied Mathematics (HSE Moscow). Researching decision-making under uncertainty and market frictions in low SNR — transaction costs, forecast uncertainty, price impact, estimation error, and regime dynamics — to recover implementable strategies from theoretical ones. The core of my work is to ask the economic question first to identify the inductive biases, then let them reshape the objective, architecture, estimation, and backtest. Working papers on economic-loss covariance shrinkage and cost-aware trading; prior research and industry experience span covariance estimation, frictions, optimal execution, statistical arbitrage, volatility forecasts, and deep hedging.
 
   ## Research Interests
   *Recovering implementable strategies from theoretical ones — estimation and decision-making under low signal-to-noise.*
@@ -97,7 +100,7 @@ content:
         sub_title: with Urban Ulrych
         caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
-          Learns the expected return vs turnover trade-off via FPCA-encoded reward contextual bandits, applied to a convex optimization layer for exogenous weights. Improves gross-to-turnover ratio by 30–80 bps.
+          Learns trade-speed from implicit return vs turnover trade-off via FPCA contextual bandits for exogenous weights as opposed to explicit Gârleanu–Pedersen objective. Improves gross-to-turnover ratio by 30–80 bps.
 
   - title: Talks & Conferences # Title for the section
     layout: list # Type of content section (list/text)
@@ -128,6 +131,10 @@ content:
           Master of Science UZH ETH in Quantitative Finance (Zurich, Switzerland)
         description: | # this will include new lines to allow paragraphs
           **Relevant courses**: High-Dimensional Statistics with Prof. Bühlmann (6/6), Probabilistic AI with Prof. Krause (5.75/6), ML in Finance & Complex Systems (5.5/6), Quant AM and Systematic Investments (6/6), Quant PM with Python (6/6), Investments Quant Tools (6/6), AM: Advanced Investments (5.75/6)
+
+          **Audited (no exam)**: BM & Stochastic Calculus, Theoretical Foundations of RL, Applied Stochastic Processes
+
+          **Selected courses next semester**: Mathematical Foundations for Finance, Dynamic Programming & Optimal Control, Advanced ML, Deep Learning, Time Series Analysis, Reinforcement Learning
 
           **Expected GPA 5.6 / 6.0**
 
@@ -186,7 +193,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Highly selective 2-year hands-on research program (18 / 100+ admitted to the program, 7 graduated); bi-weekly research meetings at QRT's Zurich office; presented research every 3 weeks to a UBS / QRT / UZH audience.
 
-          Year 2: implemented a live deployment of equity beta-hedged statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team, with selected results (net Sharpe ratio):
+          Year 2: implemented a live deployment of equity market-neutral statistical-arbitrage strategies on the QRT Q-Sec platform. Led strategy research and production implementation for the whole team.
+          
+          4 strategies deployed live; ≈70% live-to-backtest Sharpe retention, net of costs:
 
           - Volume Shocks & Overnight Returns: backtest 1.05, live in progress (intraday data)
           - ML Fractional Momentum Selection & Timing: backtest 1.04, live 0.73
