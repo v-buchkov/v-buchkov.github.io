@@ -100,7 +100,7 @@ content:
         sub_title: with Urban Ulrych
         caption: 2026 — In preparation for submission
         description: | # this will include new lines to allow paragraphs
-          Learns trade-speed from implicit return vs turnover trade-off via FPCA contextual bandits for exogenous weights as opposed to explicit Gârleanu–Pedersen objective. Improves gross-to-turnover ratio by 30–80 bps.
+          Learns trade-speed from the realized return vs turnover trade-off via FPCA bandits for exogenous weights, as opposed to the explicit Gârleanu–Pedersen objective. Improves gross return-to-turnover by 30–80 bps.
 
   - title: Talks & Conferences # Title for the section
     layout: list # Type of content section (list/text)
