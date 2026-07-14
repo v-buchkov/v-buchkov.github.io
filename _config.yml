@@ -52,7 +52,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile_photo.jpg
+about_profile_image: images/new_profile_photo.png
 about_content: | # this will include new lines to allow paragraphs
   **Seeking a PhD in ML in Finance, starting Fall 2027 — forecast uncertainty, frictions, regime dynamics, and execution. Happy to discuss potential fit.**
 
