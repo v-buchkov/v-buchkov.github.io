@@ -54,8 +54,6 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/new_profile_photo.png
 about_content: | # this will include new lines to allow paragraphs
-  **Seeking a PhD in ML in Finance, starting Fall 2027 — forecast uncertainty, frictions, regime dynamics, and execution. Happy to discuss potential fit.**
-
   Double MSc: Quantitative Finance at ETH Zürich / UZH (D-MATH & Dept. of Finance) + Applied Mathematics (HSE Moscow). Researching decision-making under uncertainty and market frictions in low SNR — transaction costs, forecast uncertainty, price impact, estimation error, and regime dynamics — to recover implementable strategies from theoretical ones. The core of my work is to ask the economic question first to identify the inductive biases, then let them reshape the objective, architecture, estimation, and backtest. Working papers on economic-loss covariance shrinkage and cost-aware trading; prior research and industry experience span covariance estimation, frictions, optimal execution, statistical arbitrage, volatility forecasts, and deep hedging.
 
   ## Research Interests
