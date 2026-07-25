@@ -293,7 +293,7 @@ content:
           - title: Record (DOI)
             icon: fas fa-file-alt
             url: https://doi.org/10.5281/zenodo.19814884
-        caption: January 2025 (PMP UZH)
+        caption: December 2024 (PMP UZH)
         description: | # this will include new lines to allow paragraphs
           Extension of Kelly et al. (2021) VoC framework with a Gaussian Process and timing by Bayesian uncertainty.
       - layout: top-middle
