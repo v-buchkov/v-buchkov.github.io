@@ -111,7 +111,7 @@ content:
           - title: Poster (PDF)
             icon: fas fa-file-pdf
             url: https://v-buchkov.github.io/assets/Shrinkage_Estimation_of_Covariance_Matrices_Presentation.pdf
-        caption: 7–9 Sep 2026 (accepted)
+        caption: 7–9 Sep 2026
         description: | # this will include new lines to allow paragraphs
           RL covariance shrinkage paper, with De Nard & Ulrych. Freddy Delbaen Conference ("From Analysis to Mathematical Finance and Insurance"), ETH Zurich, 7–9 Sep 2026.
       - layout: top-middle
